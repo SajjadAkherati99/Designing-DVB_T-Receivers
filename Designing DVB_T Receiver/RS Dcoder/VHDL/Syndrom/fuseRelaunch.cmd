@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/my_files/course/projects/RS_decoder/VHDL/Syndrom/Syndrom_tb_isim_beh.exe" -prj "D:/my_files/course/projects/RS_decoder/VHDL/Syndrom/Syndrom_tb_beh.prj" "work.Syndrom_tb" 

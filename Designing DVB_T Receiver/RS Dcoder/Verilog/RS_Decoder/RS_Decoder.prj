@@ -1,0 +1,6 @@
+verilog work "../modules/z_Calculator.v"
+verilog work "../modules/syndrom.v"
+verilog work "../modules/error_Magnitude.v"
+verilog work "../modules/Error_Locator_Calculator.v"
+verilog work "../modules/error_Locations.v"
+verilog work "RS_Decoder.v"

@@ -1,0 +1,8 @@
+vhdl work "z_Calculator.vhd"
+vhdl work "Syndrom.vhd"
+vhdl work "error_Magnitude.vhd"
+vhdl work "Error_Locator_Calculator.vhd"
+vhdl work "Error_Locations.vhd"
+vhdl work "RS_Decoder.vhd"
+verilog work "RS_Decoder_tf.v"
+verilog work "G:/Xilinx/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,28 @@
+Command line:
+   error_locations_tf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2562
+
+Sun Aug 08 16:29:33 2021
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 5160.18 Meg
+
+ Total Signals          : 59
+ Total Nets             : 450
+ Total Signal Drivers   : 51
+ Total Blocks           : 9
+ Total Primitive Blocks : 8
+ Total Processes        : 44
+ Total Traceable Variables  : 48
+ Total Scalar Nets and Variables : 5714
+
+ Total Simulation Time: 2.5625 sec
+
+ Current Memory Usage: 4688.32 Meg
+
+Sun Aug 08 16:35:16 2021
+

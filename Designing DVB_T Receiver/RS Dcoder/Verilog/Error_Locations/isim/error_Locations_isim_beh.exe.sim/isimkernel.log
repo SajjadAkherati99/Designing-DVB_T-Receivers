@@ -1,0 +1,28 @@
+Command line:
+   error_Locations_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1304
+
+Sat Jun 05 20:13:05 2021
+
+
+ Elaboration Time: 0.0936 sec
+
+ Current Memory Usage: 674.21 Meg
+
+ Total Signals          : 32
+ Total Nets             : 151
+ Total Signal Drivers   : 14
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 25
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 4562
+
+ Total Simulation Time: 0.187201 sec
+
+ Current Memory Usage: 674.21 Meg
+
+Sat Jun 05 20:13:15 2021
+

@@ -1,0 +1,161 @@
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Locations/error_Locations.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Locations.ngc error_Locations.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Locations_map.ncd error_Locations.ngd error_Locations.pcf 
+par -w -intstyle ise -ol high -mt off error_Locations_map.ncd error_Locations.ncd error_Locations.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Locations.twx error_Locations.ncd -o error_Locations.twr error_Locations.pcf 

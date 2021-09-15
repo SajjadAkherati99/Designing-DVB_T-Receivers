@@ -1,0 +1,6 @@
+vhdl work "z_Calculator.vhd"
+vhdl work "Syndrom.vhd"
+vhdl work "error_Magnitude.vhd"
+vhdl work "Error_Locator_Calculator.vhd"
+vhdl work "Error_Locations.vhd"
+vhdl work "RS_Decoder.vhd"

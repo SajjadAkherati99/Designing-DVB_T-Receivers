@@ -1,0 +1,28 @@
+Command line:
+   syndrome_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  10526
+
+Wed Jul 28 23:54:58 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5160.02 Meg
+
+ Total Signals          : 49
+ Total Nets             : 156
+ Total Signal Drivers   : 24
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 46
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 4543
+
+ Total Simulation Time: 1.21875 sec
+
+ Current Memory Usage: 4688.16 Meg
+
+Wed Jul 28 23:57:42 2021
+

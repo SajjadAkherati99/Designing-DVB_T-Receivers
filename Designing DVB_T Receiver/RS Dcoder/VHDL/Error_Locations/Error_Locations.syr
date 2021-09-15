@@ -1,0 +1,621 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: Error_Locations.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Error_Locations.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Error_Locations"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : Error_Locations
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\my_files\course\projects\RS_decoder\VHDL\Error_Locations\Error_Locations.vhd" into library work
+Parsing entity <Error_Locations>.
+Parsing architecture <Behavioral> of entity <error_locations>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Error_Locations> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Error_Locations>.
+    Related source file is "D:\my_files\course\projects\RS_decoder\VHDL\Error_Locations\Error_Locations.vhd".
+    Found 12-bit register for signal <ax1>.
+    Found 12-bit register for signal <ax2>.
+    Found 12-bit register for signal <ax3>.
+    Found 12-bit register for signal <ax4>.
+    Found 12-bit register for signal <ax5>.
+    Found 12-bit register for signal <ax6>.
+    Found 12-bit register for signal <ax7>.
+    Found 12-bit register for signal <ax8>.
+    Found 3-bit register for signal <i>.
+    Found 8-bit register for signal <L_array<0>>.
+    Found 8-bit register for signal <L_array<1>>.
+    Found 8-bit register for signal <L_array<2>>.
+    Found 8-bit register for signal <L_array<3>>.
+    Found 8-bit register for signal <L_array<4>>.
+    Found 8-bit register for signal <L_array<5>>.
+    Found 8-bit register for signal <L_array<6>>.
+    Found 8-bit register for signal <L_array<7>>.
+    Found 8-bit register for signal <alpha_counter>.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_0_OUT> created at line 94.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_1_OUT> created at line 95.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_2_OUT> created at line 96.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_3_OUT> created at line 97.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_4_OUT> created at line 98.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_5_OUT> created at line 99.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_6_OUT> created at line 100.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_7_OUT> created at line 101.
+    Found 3-bit adder for signal <i[2]_GND_8_o_add_18_OUT> created at line 106.
+    Found 8-bit adder for signal <alpha_counter[7]_GND_8_o_add_29_OUT> created at line 110.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_31_OUT> created at line 113.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_32_OUT> created at line 114.
+    Found 12-bit adder for signal <n0363> created at line 115.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_34_OUT> created at line 115.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_35_OUT> created at line 116.
+    Found 12-bit adder for signal <n0372> created at line 117.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_37_OUT> created at line 117.
+    Found 12-bit adder for signal <n0378> created at line 118.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_39_OUT> created at line 118.
+    Found 12-bit adder for signal <n0384> created at line 119.
+    Found 12-bit adder for signal <n0387> created at line 119.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_42_OUT> created at line 119.
+    Found 12-bit adder for signal <GND_8_o_GND_8_o_add_43_OUT> created at line 120.
+    Found 8-bit adder for signal <ax1[7]_GND_8_o_add_83_OUT> created at line 128.
+    Found 8-bit adder for signal <n0393> created at line 130.
+    Found 8-bit adder for signal <ax2[7]_GND_8_o_add_89_OUT> created at line 137.
+    Found 8-bit adder for signal <n0398> created at line 139.
+    Found 8-bit adder for signal <ax3[7]_GND_8_o_add_95_OUT> created at line 146.
+    Found 8-bit adder for signal <n0403> created at line 148.
+    Found 8-bit adder for signal <ax4[7]_GND_8_o_add_101_OUT> created at line 155.
+    Found 8-bit adder for signal <n0408> created at line 157.
+    Found 8-bit adder for signal <ax5[7]_GND_8_o_add_107_OUT> created at line 164.
+    Found 8-bit adder for signal <n0413> created at line 166.
+    Found 8-bit adder for signal <ax6[7]_GND_8_o_add_113_OUT> created at line 173.
+    Found 8-bit adder for signal <n0418> created at line 175.
+    Found 8-bit adder for signal <ax7[7]_GND_8_o_add_119_OUT> created at line 182.
+    Found 8-bit adder for signal <n0423> created at line 184.
+    Found 8-bit adder for signal <ax8[7]_GND_8_o_add_125_OUT> created at line 191.
+    Found 8-bit adder for signal <n0428> created at line 193.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_81_OUT<7:0>> created at line 127.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_87_OUT<7:0>> created at line 136.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_93_OUT<7:0>> created at line 145.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_99_OUT<7:0>> created at line 154.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_105_OUT<7:0>> created at line 163.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_111_OUT<7:0>> created at line 172.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_117_OUT<7:0>> created at line 181.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_123_OUT<7:0>> created at line 190.
+    Found 256x8-bit Read Only RAM for signal <x1a[7]_GND_8_o_wide_mux_128_OUT>
+    Found 256x8-bit Read Only RAM for signal <x2a[7]_GND_8_o_wide_mux_129_OUT>
+    Found 256x8-bit Read Only RAM for signal <x3a[7]_GND_8_o_wide_mux_131_OUT>
+    Found 256x8-bit Read Only RAM for signal <x4a[7]_GND_8_o_wide_mux_133_OUT>
+    Found 256x8-bit Read Only RAM for signal <x5a[7]_GND_8_o_wide_mux_135_OUT>
+    Found 256x8-bit Read Only RAM for signal <x6a[7]_GND_8_o_wide_mux_137_OUT>
+    Found 256x8-bit Read Only RAM for signal <x7a[7]_GND_8_o_wide_mux_139_OUT>
+    Found 256x8-bit Read Only RAM for signal <x8a[7]_GND_8_o_wide_mux_141_OUT>
+    Found 256x8-bit Read Only RAM for signal <root>
+    Found 8-bit comparator greater for signal <alpha_counter[7]_PWR_8_o_LessThan_29_o> created at line 109
+    Found 8-bit comparator greater for signal <GND_8_o_ax1[7]_LessThan_82_o> created at line 127
+    Found 8-bit comparator greater for signal <GND_8_o_ax2[7]_LessThan_88_o> created at line 136
+    Found 8-bit comparator greater for signal <GND_8_o_ax3[7]_LessThan_94_o> created at line 145
+    Found 8-bit comparator greater for signal <GND_8_o_ax4[7]_LessThan_100_o> created at line 154
+    Found 8-bit comparator greater for signal <GND_8_o_ax5[7]_LessThan_106_o> created at line 163
+    Found 8-bit comparator greater for signal <GND_8_o_ax6[7]_LessThan_112_o> created at line 172
+    Found 8-bit comparator greater for signal <GND_8_o_ax7[7]_LessThan_118_o> created at line 181
+    Found 8-bit comparator greater for signal <GND_8_o_ax8[7]_LessThan_124_o> created at line 190
+    Summary:
+	inferred   9 RAM(s).
+	inferred  39 Adder/Subtractor(s).
+	inferred 171 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  20 Multiplexer(s).
+Unit <Error_Locations> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 256x8-bit single-port Read Only RAM                   : 9
+# Adders/Subtractors                                   : 39
+ 12-bit adder                                          : 13
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 17
+ 8-bit subtractor                                      : 8
+# Registers                                            : 18
+ 12-bit register                                       : 8
+ 3-bit register                                        : 1
+ 8-bit register                                        : 9
+# Comparators                                          : 9
+ 8-bit comparator greater                              : 9
+# Multiplexers                                         : 20
+ 12-bit 2-to-1 multiplexer                             : 12
+ 8-bit 2-to-1 multiplexer                              : 8
+# Xors                                                 : 1
+ 8-bit xor9                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Error_Locations>.
+The following registers are absorbed into counter <alpha_counter>: 1 register on signal <alpha_counter>.
+The following registers are absorbed into counter <i>: 1 register on signal <i>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x1a[7]_GND_8_o_wide_mux_128_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x1a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x2a[7]_GND_8_o_wide_mux_129_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x2a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x3a[7]_GND_8_o_wide_mux_131_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x3a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x4a[7]_GND_8_o_wide_mux_133_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x4a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x5a[7]_GND_8_o_wide_mux_135_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x5a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x6a[7]_GND_8_o_wide_mux_137_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x6a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x7a[7]_GND_8_o_wide_mux_139_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x7a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_x8a[7]_GND_8_o_wide_mux_141_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x8a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_root> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x1a[7]_GND_8_o_xor_143_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <root>          |          |
+    -----------------------------------------------------------------------
+Unit <Error_Locations> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 256x8-bit single-port distributed Read Only RAM       : 9
+# Adders/Subtractors                                   : 37
+ 12-bit adder                                          : 13
+ 8-bit adder                                           : 16
+ 8-bit subtractor                                      : 8
+# Counters                                             : 2
+ 3-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 160
+ Flip-Flops                                            : 160
+# Comparators                                          : 9
+ 8-bit comparator greater                              : 9
+# Multiplexers                                         : 20
+ 12-bit 2-to-1 multiplexer                             : 12
+ 8-bit 2-to-1 multiplexer                              : 8
+# Xors                                                 : 1
+ 8-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <ax1_9> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax1_10> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax1_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax2_10> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax2_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax4_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax3_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Error_Locations> ...
+WARNING:Xst:1293 - FF/Latch <ax3_10> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax6_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax5_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ax7_11> has a constant value of 0 in block <Error_Locations>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Error_Locations, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 160
+ Flip-Flops                                            : 160
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Error_Locations.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1236
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 55
+#      LUT2                        : 67
+#      LUT3                        : 85
+#      LUT4                        : 112
+#      LUT5                        : 35
+#      LUT6                        : 334
+#      MUXCY                       : 157
+#      MUXF7                       : 144
+#      MUXF8                       : 72
+#      VCC                         : 1
+#      XORCY                       : 170
+# FlipFlops/Latches                : 160
+#      FD                          : 86
+#      FDE                         : 64
+#      FDRE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 129
+#      IBUF                        : 65
+#      OBUF                        : 64
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             160  out of  54576     0%  
+ Number of Slice LUTs:                  691  out of  27288     2%  
+    Number used as Logic:               691  out of  27288     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    768
+   Number with an unused Flip Flop:     608  out of    768    79%  
+   Number with an unused LUT:            77  out of    768    10%  
+   Number of fully used LUT-FF pairs:    83  out of    768    10%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                         130
+ Number of bonded IOBs:                 130  out of    218    59%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 160   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 12.452ns (Maximum Frequency: 80.306MHz)
+   Minimum input arrival time before clock: 6.094ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 12.452ns (frequency: 80.306MHz)
+  Total number of paths / destination ports: 117124232 / 227
+-------------------------------------------------------------------------
+Delay:               12.452ns (Levels of Logic = 12)
+  Source:            ax1_5 (FF)
+  Destination:       L_array_0_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: ax1_5 to L_array_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.864  ax1_5 (ax1_5)
+     LUT4:I0->O            1   0.203   0.580  GND_8_o_ax1[7]_LessThan_82_o1_SW0 (N59)
+     LUT6:I5->O            8   0.205   0.803  GND_8_o_ax1[7]_LessThan_82_o1 (GND_8_o_ax1[7]_LessThan_82_o)
+     LUT2:I1->O           32   0.205   1.656  Mmux_x1a11 (x1a<0>)
+     LUT6:I0->O            1   0.203   0.000  Mram_x1a[7]_GND_8_o_wide_mux_128_OUT10 (Mram_x1a[7]_GND_8_o_wide_mux_128_OUT10)
+     MUXF7:I1->O           1   0.140   0.000  Mram_x1a[7]_GND_8_o_wide_mux_128_OUT10_f7 (Mram_x1a[7]_GND_8_o_wide_mux_128_OUT10_f7)
+     MUXF8:I1->O           1   0.152   0.808  Mram_x1a[7]_GND_8_o_wide_mux_128_OUT10_f8 (x1a[7]_GND_8_o_wide_mux_128_OUT<5>)
+     LUT3:I0->O            1   0.205   0.580  Mxor_x1a[7]_GND_8_o_xor_143_OUT_5_xo<0>_SW0 (N43)
+     LUT6:I5->O           32   0.205   1.656  Mxor_x1a[7]_GND_8_o_xor_143_OUT_5_xo<0> (x1a[7]_GND_8_o_xor_143_OUT<5>)
+     LUT6:I0->O            1   0.203   0.000  Mram_root41 (Mram_root4)
+     MUXF7:I1->O           1   0.140   0.000  Mram_root4_f7 (Mram_root4_f7)
+     MUXF8:I1->O           3   0.152   0.879  Mram_root4_f8 (root<2>)
+     LUT3:I0->O           64   0.205   1.639  root[7]_GND_8_o_equal_9_o<7>_cepot (root[7]_GND_8_o_equal_9_o<7>_cepot)
+     FDE:CE                    0.322          L_array_0_0
+    ----------------------------------------
+    Total                     12.452ns (2.987ns logic, 9.465ns route)
+                                       (24.0% logic, 76.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 3168 / 160
+-------------------------------------------------------------------------
+Offset:              6.094ns (Levels of Logic = 9)
+  Source:            Sigma7<5> (PAD)
+  Destination:       ax7_10 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Sigma7<5> to ax7_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.898  Sigma7_5_IBUF (Sigma7_5_IBUF)
+     LUT5:I1->O            2   0.203   0.961  Madd_n0387_lut<0>51 (Madd_n0387_lut<0>5)
+     LUT6:I1->O            3   0.203   0.898  Madd_n0387_cy<0>61 (Madd_n0387_cy<0>5)
+     LUT6:I2->O            1   0.203   0.808  Mmux_GND_8_o_GND_8_o_mux_51_OUT_A9 (Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_A<7>)
+     LUT3:I0->O            1   0.205   0.000  Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_lut<7> (Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_lut<7>)
+     MUXCY:S->O            1   0.172   0.000  Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<7> (Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<8> (Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<8>)
+     MUXCY:CI->O           0   0.019   0.000  Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<9> (Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_cy<9>)
+     XORCY:CI->O           1   0.180   0.000  Mmux_GND_8_o_GND_8_o_mux_51_OUT_rs_xor<10> (GND_8_o_GND_8_o_mux_51_OUT<10>)
+     FD:D                      0.102          ax7_10
+    ----------------------------------------
+    Total                      6.094ns (2.528ns logic, 3.566ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 64 / 64
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            L_array_0_7 (FF)
+  Destination:       Location1<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: L_array_0_7 to Location1<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  L_array_0_7 (L_array_0_7)
+     OBUF:I->O                 2.571          Location1_7_OBUF (Location1<7>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |   12.452|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 30.00 secs
+Total CPU time to Xst completion: 30.47 secs
+ 
+--> 
+
+Total memory usage is 4538928 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

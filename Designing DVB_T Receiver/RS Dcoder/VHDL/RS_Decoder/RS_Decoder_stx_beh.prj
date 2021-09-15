@@ -1,0 +1,6 @@
+vhdl isim_temp "z_Calculator.vhd"
+vhdl isim_temp "Syndrom.vhd"
+vhdl isim_temp "error_Magnitude.vhd"
+vhdl isim_temp "Error_Locator_Calculator.vhd"
+vhdl isim_temp "Error_Locations.vhd"
+vhdl isim_temp "RS_Decoder.vhd"

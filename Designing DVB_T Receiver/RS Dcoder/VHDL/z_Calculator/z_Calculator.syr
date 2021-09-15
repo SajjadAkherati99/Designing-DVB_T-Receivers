@@ -1,0 +1,604 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: z_Calculator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "z_Calculator.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "z_Calculator"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : z_Calculator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\my_files\course\projects\RS_decoder\VHDL\z_Calculator\z_Calculator.vhd" into library work
+Parsing entity <z_Calculator>.
+Parsing architecture <Behavioral> of entity <z_calculator>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <z_Calculator> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <z_Calculator>.
+    Related source file is "D:\my_files\course\projects\RS_decoder\VHDL\z_Calculator\z_Calculator.vhd".
+    Found 8-bit register for signal <zed<3>>.
+    Found 8-bit register for signal <zed<4>>.
+    Found 8-bit register for signal <zed<5>>.
+    Found 8-bit register for signal <zed<6>>.
+    Found 8-bit register for signal <zed<7>>.
+    Found 8-bit register for signal <zed<8>>.
+    Found 8-bit register for signal <zed<9>>.
+    Found 4-bit register for signal <i>.
+    Found 4-bit register for signal <k>.
+    Found 8-bit register for signal <zed<2>>.
+    Found 8-bit adder for signal <k[3]_GND_8_o_add_56_OUT> created at line 167.
+    Found 8-bit adder for signal <n0303> created at line 176.
+    Found 4-bit adder for signal <i[3]_GND_8_o_add_119_OUT> created at line 192.
+    Found 4-bit adder for signal <k[3]_GND_8_o_add_122_OUT> created at line 195.
+    Found 8-bit subtractor for signal <GND_8_o_GND_8_o_sub_49_OUT<7:0>> created at line 163.
+    Found 4-bit subtractor for signal <GND_8_o_GND_8_o_sub_71_OUT<3:0>> created at line 177.
+    Found 256x8-bit Read Only RAM for signal <k[3]_GND_8_o_wide_mux_30_OUT>
+    Found 256x8-bit Read Only RAM for signal <k[3]_GND_8_o_wide_mux_57_OUT>
+    Found 256x8-bit Read Only RAM for signal <k[3]_GND_8_o_wide_mux_73_OUT>
+    Found 256x8-bit Read Only RAM for signal <zed1>
+    Found 256x8-bit Read Only RAM for signal <zed2>
+    Found 256x8-bit Read Only RAM for signal <zed3>
+    Found 256x8-bit Read Only RAM for signal <zed4>
+    Found 256x8-bit Read Only RAM for signal <zed5>
+    Found 256x8-bit Read Only RAM for signal <zed6>
+    Found 256x8-bit Read Only RAM for signal <zed7>
+    Found 256x8-bit Read Only RAM for signal <zed8>
+    Found 8-bit 9-to-1 multiplexer for signal <n0305> created at line 176.
+    Found 8-bit 15-to-1 multiplexer for signal <n0306> created at line 177.
+    Found 4-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_28_o> created at line 159
+    Found 8-bit comparator greater for signal <GND_8_o_k[3]_LessThan_51_o> created at line 163
+    Found 4-bit comparator equal for signal <k[3]_i[3]_equal_118_o> created at line 186
+    Summary:
+	inferred  11 RAM(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred  72 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  28 Multiplexer(s).
+Unit <z_Calculator> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x8-bit single-port Read Only RAM                   : 11
+# Adders/Subtractors                                   : 6
+ 4-bit adder                                           : 2
+ 4-bit subtractor                                      : 1
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 1
+# Registers                                            : 10
+ 4-bit register                                        : 2
+ 8-bit register                                        : 8
+# Comparators                                          : 3
+ 4-bit comparator equal                                : 1
+ 4-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 28
+ 4-bit 2-to-1 multiplexer                              : 2
+ 8-bit 15-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 24
+ 8-bit 9-to-1 multiplexer                              : 1
+# Xors                                                 : 3
+ 8-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <z_Calculator>.
+The following registers are absorbed into counter <i>: 1 register on signal <i>.
+The following registers are absorbed into counter <k>: 1 register on signal <k>.
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_3> prevents it from being combined with the RAM <Mram_zed2> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<3>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed2>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_4> prevents it from being combined with the RAM <Mram_zed3> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<4>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed3>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_5> prevents it from being combined with the RAM <Mram_zed4> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<5>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed4>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_6> prevents it from being combined with the RAM <Mram_zed5> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<6>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed5>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_7> prevents it from being combined with the RAM <Mram_zed6> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<7>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed6>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_8> prevents it from being combined with the RAM <Mram_zed7> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<8>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed7>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_2> prevents it from being combined with the RAM <Mram_zed1> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<2>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed1>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <zed_9> prevents it from being combined with the RAM <Mram_zed8> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <zed<9>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <zed8>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed2> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed3> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed4> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed5> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed6> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed7> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed8> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_zed1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_k[3]_GND_8_o_wide_mux_30_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0305>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_k[3]_GND_8_o_wide_mux_73_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0303>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_k[3]_GND_8_o_wide_mux_57_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <k[3]_GND_8_o_add_56_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <z_Calculator> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x8-bit single-port distributed Read Only RAM       : 11
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 1
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+# Comparators                                          : 3
+ 4-bit comparator equal                                : 1
+ 4-bit comparator greater                              : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 40
+ 1-bit 2-to-1 multiplexer                              : 16
+ 8-bit 15-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 22
+ 8-bit 9-to-1 multiplexer                              : 1
+# Xors                                                 : 3
+ 8-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <z_Calculator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block z_Calculator, actual ratio is 2.
+FlipFlop i_0 has been replicated 4 time(s)
+FlipFlop i_1 has been replicated 1 time(s)
+FlipFlop i_2 has been replicated 2 time(s)
+FlipFlop i_3 has been replicated 1 time(s)
+FlipFlop k_0 has been replicated 2 time(s)
+FlipFlop k_1 has been replicated 4 time(s)
+FlipFlop k_2 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 88
+ Flip-Flops                                            : 88
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : z_Calculator.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 831
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 13
+#      LUT3                        : 32
+#      LUT4                        : 12
+#      LUT5                        : 22
+#      LUT6                        : 446
+#      MUXCY                       : 7
+#      MUXF7                       : 192
+#      MUXF8                       : 96
+#      XORCY                       : 8
+# FlipFlops/Latches                : 88
+#      FD                          : 5
+#      FDRE                        : 83
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 249
+#      IBUF                        : 185
+#      OBUF                        : 64
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              88  out of  54576     0%  
+ Number of Slice LUTs:                  527  out of  27288     1%  
+    Number used as Logic:               527  out of  27288     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    598
+   Number with an unused Flip Flop:     510  out of    598    85%  
+   Number with an unused LUT:            71  out of    598    11%  
+   Number of fully used LUT-FF pairs:    17  out of    598     2%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                         258
+ Number of bonded IOBs:                 250  out of    218   114% (*) 
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 88    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.304ns (Maximum Frequency: 107.481MHz)
+   Minimum input arrival time before clock: 9.978ns
+   Maximum output required time after clock: 5.762ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 9.304ns (frequency: 107.481MHz)
+  Total number of paths / destination ports: 2231550 / 171
+-------------------------------------------------------------------------
+Delay:               9.304ns (Levels of Logic = 11)
+  Source:            k_0_1 (FF)
+  Destination:       zed_4_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: k_0_1 to zed_4_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.447   0.933  k_0_1 (k_0_1)
+     LUT4:I3->O            1   0.205   0.580  Msub_GND_8_o_GND_8_o_sub_71_OUT<3:0>_cy<1>11 (Msub_GND_8_o_GND_8_o_sub_71_OUT<3:0>_cy<1>)
+     LUT5:I4->O            9   0.205   0.829  Msub_GND_8_o_GND_8_o_sub_71_OUT<3:0>_xor<3>11 (GND_8_o_GND_8_o_sub_71_OUT<3>)
+     MUXF8:S->O            2   0.202   0.617  Mmux_n0306_2_f8 (n0306<0>)
+     LUT2:I1->O            1   0.205   0.000  Madd_n0303_lut<0> (Madd_n0303_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_n0303_cy<0> (Madd_n0303_cy<0>)
+     XORCY:CI->O          39   0.180   1.620  Madd_n0303_xor<1> (Madd_k[3]_GND_8_o_add_56_OUT_lut<1>)
+     LUT4:I1->O           32   0.205   1.520  Madd_k[3]_GND_8_o_add_56_OUT_xor<3>11 (k[3]_GND_8_o_add_56_OUT<3>)
+     LUT6:I3->O            1   0.205   0.000  Mram_k[3]_GND_8_o_wide_mux_57_OUT1 (Mram_k[3]_GND_8_o_wide_mux_57_OUT)
+     MUXF7:I1->O           1   0.140   0.000  Mram_k[3]_GND_8_o_wide_mux_57_OUT_f7 (Mram_k[3]_GND_8_o_wide_mux_57_OUT_f7)
+     MUXF8:I1->O           1   0.152   0.580  Mram_k[3]_GND_8_o_wide_mux_57_OUT_f8 (k[3]_GND_8_o_wide_mux_57_OUT<0>)
+     LUT6:I5->O            8   0.205   0.000  zed[2][7]_zed[2][7]_mux_100_OUT<0>1 (zed[2][7]_zed[2][7]_mux_100_OUT<0>)
+     FDRE:D                    0.102          zed_2_0
+    ----------------------------------------
+    Total                      9.304ns (2.625ns logic, 6.679ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1194328 / 216
+-------------------------------------------------------------------------
+Offset:              9.978ns (Levels of Logic = 11)
+  Source:            Sigma3<0> (PAD)
+  Destination:       zed_4_0 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Sigma3<0> to zed_4_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.944  Sigma3_0_IBUF (Sigma3_0_IBUF)
+     LUT6:I0->O            1   0.203   0.684  Mmux_n030521 (Mmux_n03052)
+     LUT6:I4->O           35   0.203   1.439  Mmux_n030523 (n0305<0>)
+     LUT2:I0->O            1   0.203   0.000  Madd_n0303_lut<0> (Madd_n0303_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_n0303_cy<0> (Madd_n0303_cy<0>)
+     XORCY:CI->O          39   0.180   1.620  Madd_n0303_xor<1> (Madd_k[3]_GND_8_o_add_56_OUT_lut<1>)
+     LUT4:I1->O           32   0.205   1.520  Madd_k[3]_GND_8_o_add_56_OUT_xor<3>11 (k[3]_GND_8_o_add_56_OUT<3>)
+     LUT6:I3->O            1   0.205   0.000  Mram_k[3]_GND_8_o_wide_mux_57_OUT1 (Mram_k[3]_GND_8_o_wide_mux_57_OUT)
+     MUXF7:I1->O           1   0.140   0.000  Mram_k[3]_GND_8_o_wide_mux_57_OUT_f7 (Mram_k[3]_GND_8_o_wide_mux_57_OUT_f7)
+     MUXF8:I1->O           1   0.152   0.580  Mram_k[3]_GND_8_o_wide_mux_57_OUT_f8 (k[3]_GND_8_o_wide_mux_57_OUT<0>)
+     LUT6:I5->O            8   0.205   0.000  zed[2][7]_zed[2][7]_mux_100_OUT<0>1 (zed[2][7]_zed[2][7]_mux_100_OUT<0>)
+     FDRE:D                    0.102          zed_2_0
+    ----------------------------------------
+    Total                      9.978ns (3.192ns logic, 6.786ns route)
+                                       (32.0% logic, 68.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 1728 / 64
+-------------------------------------------------------------------------
+Offset:              5.762ns (Levels of Logic = 4)
+  Source:            zed_2_4 (FF)
+  Destination:       zed1<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: zed_2_4 to zed1<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            33   0.447   1.670  zed_2_4 (zed_2_4)
+     LUT6:I0->O            1   0.203   0.000  Mram_zed110 (Mram_zed110)
+     MUXF7:I1->O           1   0.140   0.000  Mram_zed110_f7 (Mram_zed110_f7)
+     MUXF8:I1->O           1   0.152   0.579  Mram_zed110_f8 (zed1_5_OBUF)
+     OBUF:I->O                 2.571          zed1_5_OBUF (zed1<5>)
+    ----------------------------------------
+    Total                      5.762ns (3.513ns logic, 2.249ns route)
+                                       (61.0% logic, 39.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    9.304|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.88 secs
+ 
+--> 
+
+Total memory usage is 4507568 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   19 (   0 filtered)
+

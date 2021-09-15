@@ -1,0 +1,57 @@
+ISim log file
+Running: D:\my_files\course\projects\RS_decoder\VHDL\RS_Decoder\RS_Decoder_tf_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/my_files/course/projects/RS_decoder/VHDL/RS_Decoder/RS_Decoder_tf_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 25 ns(1), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 25 ns(3), Instance /RS_Decoder_tf/uut/The_Error_Loactions/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run all
+at 2585 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2605 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2615 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2635 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2645 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2655 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2675 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2685 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2695 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2725 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2735 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2745 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2755 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2765 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2785 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2795 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2805 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2815 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2825 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2835 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2855 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2865 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2875 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2885 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2895 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2905 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2915 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2935 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2945 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2955 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2965 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2975 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2985 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2995 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3005 ns(1), Instance /RS_Decoder_tf/uut/z_x/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Stopped at time : 161315 ns : File "D:/my_files/course/projects/RS_decoder/VHDL/RS_Decoder/Syndrom.vhd" Line 79

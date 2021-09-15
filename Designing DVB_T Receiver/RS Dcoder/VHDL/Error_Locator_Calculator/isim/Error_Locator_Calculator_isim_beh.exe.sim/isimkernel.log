@@ -1,0 +1,28 @@
+Command line:
+   Error_Locator_Calculator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  14752
+
+Sat Jul 31 01:27:09 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5160.31 Meg
+
+ Total Signals          : 36
+ Total Nets             : 732
+ Total Signal Drivers   : 60
+ Total Blocks           : 52
+ Total Primitive Blocks : 51
+ Total Processes        : 48
+ Total Traceable Variables  : 69
+ Total Scalar Nets and Variables : 5903
+
+ Total Simulation Time: 0.359375 sec
+
+ Current Memory Usage: 4688.45 Meg
+
+Sat Jul 31 01:29:27 2021
+

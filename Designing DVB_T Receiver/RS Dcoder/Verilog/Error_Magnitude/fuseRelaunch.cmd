@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude_tb_isim_beh.exe" -prj "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude_tb_beh.prj" "work.error_Magnitude_tb" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/my_files/course/projects/RS_decoder/VHDL/Error_Locations/error_locations_tf_isim_beh.exe" -prj "D:/my_files/course/projects/RS_decoder/VHDL/Error_Locations/error_locations_tf_beh.prj" "work.error_locations_tf" "work.glbl" 

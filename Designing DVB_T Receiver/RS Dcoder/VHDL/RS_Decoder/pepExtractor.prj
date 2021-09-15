@@ -1,0 +1,6 @@
+work	"Error_Locations.vhd"
+work	"Error_Locator_Calculator.vhd"
+work	"RS_Decoder.vhd"
+work	"Syndrom.vhd"
+work	"error_Magnitude.vhd"
+work	"z_Calculator.vhd"

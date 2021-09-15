@@ -1,0 +1,3 @@
+verilog work "z_Calculator.v"
+verilog work "z_Calculator_tb.v"
+verilog work "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

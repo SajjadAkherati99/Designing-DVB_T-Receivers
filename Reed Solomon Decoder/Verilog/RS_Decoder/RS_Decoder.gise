@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="RS_Decoder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="RS_Decoder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RS_Decoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RS_Decoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RS_Decoder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RS_Decoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="RS_Decoder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RS_Decoder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="RS_Decoder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="RS_Decoder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="RS_Decoder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS_Decoder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="RS_Decoder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RS_Decoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RS_Decoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="RS_Decoder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="RS_Decoder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="RS_Decoder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="RS_Decoder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RS_Decoder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RS_Decoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="RS_Decoder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RS_Decoder_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RS_Decoder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RS_Decoder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RS_Decoder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="RS_Decoder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RS_Decoder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RS_Decoder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="RS_Decoder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="RS_Decoder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RS_Decoder_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS_Decoder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RS_Decoder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="RS_Decoder_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS_Decoder_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RS_Decoder_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="RS_Decoder_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS_Decoder_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="RS_Decoder_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RS_Decoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="syndrom_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1622974604" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1622974604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623593437" xil_pn:in_ck="3715110768494501059" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1623593432">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../modules/Error_Locator_Calculator.v"/>
+      <outfile xil_pn:name="../modules/error_Locations.v"/>
+      <outfile xil_pn:name="../modules/error_Magnitude.v"/>
+      <outfile xil_pn:name="../modules/syndrom.v"/>
+      <outfile xil_pn:name="../modules/z_Calculator.v"/>
+      <outfile xil_pn:name="RS-Decoder_tb.v"/>
+      <outfile xil_pn:name="RS_Decoder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1629639643" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1547473906872660294" xil_pn:start_ts="1629639643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1629639643" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7664616243174533884" xil_pn:start_ts="1629639643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622974604" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5117487645837350464" xil_pn:start_ts="1622974604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623593437" xil_pn:in_ck="3715110768494501059" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1623593437">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../modules/Error_Locator_Calculator.v"/>
+      <outfile xil_pn:name="../modules/error_Locations.v"/>
+      <outfile xil_pn:name="../modules/error_Magnitude.v"/>
+      <outfile xil_pn:name="../modules/syndrom.v"/>
+      <outfile xil_pn:name="../modules/z_Calculator.v"/>
+      <outfile xil_pn:name="RS-Decoder_tb.v"/>
+      <outfile xil_pn:name="RS_Decoder.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1629639650" xil_pn:in_ck="3715110768494501059" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9154114377002799947" xil_pn:start_ts="1629639643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="RS_Decoder_tb_beh.prj"/>
+      <outfile xil_pn:name="RS_Decoder_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1629639650" xil_pn:in_ck="6288602170345002791" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3602390294080307214" xil_pn:start_ts="1629639650">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="RS_Decoder_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1622965815" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1622965815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966419" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6409711509840997553" xil_pn:start_ts="1622966419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966419" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5117487645837350464" xil_pn:start_ts="1622966419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966391" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1622966391">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966419" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6874414587381596719" xil_pn:start_ts="1622966419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966420" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1622966419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966420" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-93553512099390006" xil_pn:start_ts="1622966420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622984963" xil_pn:in_ck="8406194408829525666" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6428332875421591025" xil_pn:start_ts="1622984897">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="RS_Decoder.lso"/>
+      <outfile xil_pn:name="RS_Decoder.ngc"/>
+      <outfile xil_pn:name="RS_Decoder.ngr"/>
+      <outfile xil_pn:name="RS_Decoder.prj"/>
+      <outfile xil_pn:name="RS_Decoder.stx"/>
+      <outfile xil_pn:name="RS_Decoder.syr"/>
+      <outfile xil_pn:name="RS_Decoder.xst"/>
+      <outfile xil_pn:name="RS_Decoder_stx_beh.prj"/>
+      <outfile xil_pn:name="RS_Decoder_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="RS_Decoder_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1622966391" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8766372127043590908" xil_pn:start_ts="1622966391">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622984977" xil_pn:in_ck="8074829777131495680" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-9154687924534863327" xil_pn:start_ts="1622984963">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RS_Decoder.bld"/>
+      <outfile xil_pn:name="RS_Decoder.ngd"/>
+      <outfile xil_pn:name="RS_Decoder_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1622985168" xil_pn:in_ck="8074829777131495681" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4245753365082497697" xil_pn:start_ts="1622984977">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RS_Decoder.pcf"/>
+      <outfile xil_pn:name="RS_Decoder_map.map"/>
+      <outfile xil_pn:name="RS_Decoder_map.mrp"/>
+      <outfile xil_pn:name="RS_Decoder_map.ncd"/>
+      <outfile xil_pn:name="RS_Decoder_map.ngm"/>
+      <outfile xil_pn:name="RS_Decoder_map.xrpt"/>
+      <outfile xil_pn:name="RS_Decoder_summary.xml"/>
+      <outfile xil_pn:name="RS_Decoder_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1622985372" xil_pn:in_ck="-472904602571061094" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-3829590541433901613" xil_pn:start_ts="1622985168">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RS_Decoder.ncd"/>
+      <outfile xil_pn:name="RS_Decoder.pad"/>
+      <outfile xil_pn:name="RS_Decoder.par"/>
+      <outfile xil_pn:name="RS_Decoder.ptwx"/>
+      <outfile xil_pn:name="RS_Decoder.unroutes"/>
+      <outfile xil_pn:name="RS_Decoder.xpi"/>
+      <outfile xil_pn:name="RS_Decoder_pad.csv"/>
+      <outfile xil_pn:name="RS_Decoder_pad.txt"/>
+      <outfile xil_pn:name="RS_Decoder_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1622985372" xil_pn:in_ck="8074829777131495549" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1622985355">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RS_Decoder.twr"/>
+      <outfile xil_pn:name="RS_Decoder.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

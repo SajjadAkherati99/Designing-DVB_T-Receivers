@@ -1,0 +1,544 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Syndrome_Calculator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Syndrome_Calculator.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Syndrome_Calculator"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : Syndrome_Calculator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\my_files\course\projects\alpha tuple\tuple_to_alpha\Tuple_To_Alpha\Tuple_To_Alpha.v" into library work
+Parsing module <Tuple_To_Alpha>.
+Analyzing Verilog file "E:\my_files\course\projects\alpha tuple\alpha_to_tuple\Alpha_To_Tuple\Alpha_To_Tuple.v" into library work
+Parsing module <Alpha_To_Tuple>.
+Analyzing Verilog file "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome\Syndrome.v" into library work
+Parsing module <Syndrome>.
+Analyzing Verilog file "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" into library work
+Parsing module <Syndrome_Calculator>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 22: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 30: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 38: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 46: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 54: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 62: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 70: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 78: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 86: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 94: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 102: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 110: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 118: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 126: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 134: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 142: Port done is not connected to this instance
+
+Elaborating module <Syndrome_Calculator>.
+
+Elaborating module <Syndrome>.
+
+Elaborating module <Tuple_To_Alpha>.
+
+Elaborating module <Alpha_To_Tuple>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Syndrome_Calculator>.
+    Related source file is "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v".
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 22: Output port <done> of the instance <S1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 30: Output port <done> of the instance <S2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 38: Output port <done> of the instance <S3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 46: Output port <done> of the instance <S4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 54: Output port <done> of the instance <S5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 62: Output port <done> of the instance <S6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 70: Output port <done> of the instance <S7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 78: Output port <done> of the instance <S8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 86: Output port <done> of the instance <S9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 94: Output port <done> of the instance <S10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 102: Output port <done> of the instance <S11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 110: Output port <done> of the instance <S12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 118: Output port <done> of the instance <S13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 126: Output port <done> of the instance <S14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 134: Output port <done> of the instance <S15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" line 142: Output port <done> of the instance <S16> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Syndrome_Calculator> synthesized.
+
+Synthesizing Unit <Syndrome>.
+    Related source file is "E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome\Syndrome.v".
+    Found 9-bit register for signal <counter>.
+    Found 1-bit register for signal <done>.
+    Found 8-bit register for signal <S>.
+    Found 8-bit subtractor for signal <PWR_2_o_GND_2_o_sub_16_OUT> created at line 55.
+    Found 9-bit adder for signal <counter[8]_GND_2_o_add_2_OUT> created at line 35.
+    Found 9-bit adder for signal <n0058> created at line 56.
+    Found 9-bit adder for signal <n0057> created at line 58.
+    Found 1-bit tristate buffer for signal <S_i<7>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<6>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<5>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<4>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<3>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<2>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<1>> created at line 61
+    Found 1-bit tristate buffer for signal <S_i<0>> created at line 61
+    Found 9-bit comparator greater for signal <counter[8]_PWR_2_o_LessThan_2_o> created at line 34
+    Found 8-bit comparator greater for signal <PWR_2_o_S[7]_LessThan_17_o> created at line 55
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+	inferred   8 Tristate(s).
+Unit <Syndrome> synthesized.
+
+Synthesizing Unit <Tuple_To_Alpha>.
+    Related source file is "E:\my_files\course\projects\alpha tuple\tuple_to_alpha\Tuple_To_Alpha\Tuple_To_Alpha.v".
+    Summary:
+	no macro.
+Unit <Tuple_To_Alpha> synthesized.
+
+Synthesizing Unit <Alpha_To_Tuple>.
+    Related source file is "E:\my_files\course\projects\alpha tuple\alpha_to_tuple\Alpha_To_Tuple\Alpha_To_Tuple.v".
+    Summary:
+	no macro.
+Unit <Alpha_To_Tuple> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 48
+ 8-bit subtractor                                      : 16
+ 9-bit adder                                           : 32
+# Registers                                            : 48
+ 1-bit register                                        : 16
+ 8-bit register                                        : 16
+ 9-bit register                                        : 16
+# Comparators                                          : 32
+ 8-bit comparator greater                              : 16
+ 9-bit comparator greater                              : 16
+# Multiplexers                                         : 32
+ 9-bit 2-to-1 multiplexer                              : 32
+# Tristates                                            : 128
+ 1-bit tristate buffer                                 : 128
+# Xors                                                 : 16
+ 8-bit xor2                                            : 16
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Syndrome>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <Syndrome> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 32
+ 8-bit subtractor                                      : 16
+ 9-bit adder                                           : 16
+# Counters                                             : 16
+ 9-bit up counter                                      : 16
+# Registers                                            : 144
+ Flip-Flops                                            : 144
+# Comparators                                          : 32
+ 8-bit comparator greater                              : 16
+ 9-bit comparator greater                              : 16
+# Multiplexers                                         : 32
+ 9-bit 2-to-1 multiplexer                              : 32
+# Xors                                                 : 16
+ 8-bit xor2                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Syndrome_Calculator> ...
+
+Optimizing unit <Tuple_To_Alpha> ...
+
+Optimizing unit <Alpha_To_Tuple> ...
+INFO:Xst:2261 - The FF/Latch <S16/counter_0> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_0> <S14/counter_0> <S13/counter_0> <S12/counter_0> <S11/counter_0> <S10/counter_0> <S9/counter_0> <S8/counter_0> <S7/counter_0> <S6/counter_0> <S5/counter_0> <S4/counter_0> <S3/counter_0> <S2/counter_0> <S1/counter_0> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_1> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_1> <S14/counter_1> <S13/counter_1> <S12/counter_1> <S11/counter_1> <S10/counter_1> <S9/counter_1> <S8/counter_1> <S7/counter_1> <S6/counter_1> <S5/counter_1> <S4/counter_1> <S3/counter_1> <S2/counter_1> <S1/counter_1> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_2> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_2> <S14/counter_2> <S13/counter_2> <S12/counter_2> <S11/counter_2> <S10/counter_2> <S9/counter_2> <S8/counter_2> <S7/counter_2> <S6/counter_2> <S5/counter_2> <S4/counter_2> <S3/counter_2> <S2/counter_2> <S1/counter_2> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_3> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_3> <S14/counter_3> <S13/counter_3> <S12/counter_3> <S11/counter_3> <S10/counter_3> <S9/counter_3> <S8/counter_3> <S7/counter_3> <S6/counter_3> <S5/counter_3> <S4/counter_3> <S3/counter_3> <S2/counter_3> <S1/counter_3> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_4> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_4> <S14/counter_4> <S13/counter_4> <S12/counter_4> <S11/counter_4> <S10/counter_4> <S9/counter_4> <S8/counter_4> <S7/counter_4> <S6/counter_4> <S5/counter_4> <S4/counter_4> <S3/counter_4> <S2/counter_4> <S1/counter_4> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_5> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_5> <S14/counter_5> <S13/counter_5> <S12/counter_5> <S11/counter_5> <S10/counter_5> <S9/counter_5> <S8/counter_5> <S7/counter_5> <S6/counter_5> <S5/counter_5> <S4/counter_5> <S3/counter_5> <S2/counter_5> <S1/counter_5> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_6> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_6> <S14/counter_6> <S13/counter_6> <S12/counter_6> <S11/counter_6> <S10/counter_6> <S9/counter_6> <S8/counter_6> <S7/counter_6> <S6/counter_6> <S5/counter_6> <S4/counter_6> <S3/counter_6> <S2/counter_6> <S1/counter_6> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_7> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_7> <S14/counter_7> <S13/counter_7> <S12/counter_7> <S11/counter_7> <S10/counter_7> <S9/counter_7> <S8/counter_7> <S7/counter_7> <S6/counter_7> <S5/counter_7> <S4/counter_7> <S3/counter_7> <S2/counter_7> <S1/counter_7> 
+INFO:Xst:2261 - The FF/Latch <S16/counter_8> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/counter_8> <S14/counter_8> <S13/counter_8> <S12/counter_8> <S11/counter_8> <S10/counter_8> <S9/counter_8> <S8/counter_8> <S7/counter_8> <S6/counter_8> <S5/counter_8> <S4/counter_8> <S3/counter_8> <S2/counter_8> <S1/counter_8> 
+INFO:Xst:2261 - The FF/Latch <S16/done> in Unit <Syndrome_Calculator> is equivalent to the following 15 FFs/Latches, which will be removed : <S15/done> <S14/done> <S13/done> <S12/done> <S11/done> <S10/done> <S9/done> <S8/done> <S7/done> <S6/done> <S5/done> <S4/done> <S3/done> <S2/done> <S1/done> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Syndrome_Calculator, actual ratio is 28.
+FlipFlop S1/S_0 has been replicated 1 time(s)
+FlipFlop S1/S_1 has been replicated 2 time(s)
+FlipFlop S1/S_2 has been replicated 1 time(s)
+FlipFlop S10/S_0 has been replicated 1 time(s)
+FlipFlop S10/S_1 has been replicated 1 time(s)
+FlipFlop S10/S_2 has been replicated 2 time(s)
+FlipFlop S11/S_1 has been replicated 2 time(s)
+FlipFlop S11/S_2 has been replicated 1 time(s)
+FlipFlop S12/S_1 has been replicated 1 time(s)
+FlipFlop S12/S_2 has been replicated 2 time(s)
+FlipFlop S13/S_1 has been replicated 2 time(s)
+FlipFlop S13/S_2 has been replicated 1 time(s)
+FlipFlop S14/S_2 has been replicated 1 time(s)
+FlipFlop S14/S_3 has been replicated 1 time(s)
+FlipFlop S14/S_4 has been replicated 1 time(s)
+FlipFlop S14/S_5 has been replicated 2 time(s)
+FlipFlop S14/S_6 has been replicated 1 time(s)
+FlipFlop S14/S_7 has been replicated 1 time(s)
+FlipFlop S15/S_1 has been replicated 1 time(s)
+FlipFlop S15/S_2 has been replicated 1 time(s)
+FlipFlop S16/S_4 has been replicated 1 time(s)
+FlipFlop S16/S_5 has been replicated 1 time(s)
+FlipFlop S16/S_6 has been replicated 1 time(s)
+FlipFlop S16/S_7 has been replicated 1 time(s)
+FlipFlop S2/S_2 has been replicated 2 time(s)
+FlipFlop S3/S_2 has been replicated 1 time(s)
+FlipFlop S4/S_2 has been replicated 1 time(s)
+FlipFlop S5/S_1 has been replicated 2 time(s)
+FlipFlop S5/S_2 has been replicated 1 time(s)
+FlipFlop S6/S_1 has been replicated 1 time(s)
+FlipFlop S6/S_2 has been replicated 1 time(s)
+FlipFlop S7/S_1 has been replicated 2 time(s)
+FlipFlop S7/S_2 has been replicated 1 time(s)
+FlipFlop S9/S_1 has been replicated 1 time(s)
+FlipFlop S9/S_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 182
+ Flip-Flops                                            : 182
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Syndrome_Calculator.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 8048
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 8
+#      LUT2                        : 205
+#      LUT3                        : 209
+#      LUT4                        : 454
+#      LUT5                        : 847
+#      LUT6                        : 6101
+#      MUXCY                       : 8
+#      MUXF7                       : 202
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 182
+#      FDR                         : 1
+#      FDRE                        : 181
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 138
+#      IBUF                        : 10
+#      OBUFT                       : 128
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             182  out of  54576     0%  
+ Number of Slice LUTs:                 7827  out of  27288    28%  
+    Number used as Logic:              7827  out of  27288    28%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   7871
+   Number with an unused Flip Flop:    7689  out of   7871    97%  
+   Number with an unused LUT:            44  out of   7871     0%  
+   Number of fully used LUT-FF pairs:   138  out of   7871     1%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                         139
+ Number of bonded IOBs:                 139  out of    218    63%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 182   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 12.190ns (Maximum Frequency: 82.033MHz)
+   Minimum input arrival time before clock: 10.287ns
+   Maximum output required time after clock: 5.790ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 12.190ns (frequency: 82.033MHz)
+  Total number of paths / destination ports: 24662956 / 535
+-------------------------------------------------------------------------
+Delay:               12.190ns (Levels of Logic = 10)
+  Source:            S9/S_6 (FF)
+  Destination:       S9/S_4 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: S9/S_6 to S9/S_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   1.161  S9/S_6 (S9/S_6)
+     LUT3:I0->O           13   0.205   0.932  S9/PWR_2_o_S[7]_LessThan_17_o1_SW0 (N46)
+     MUXF7:S->O           30   0.148   1.368  S9/Mmux_SSM51 (S9/SSM<4>)
+     LUT6:I4->O            2   0.203   0.721  S9/Stage_SSA/Tuple<0>141 (S9/Stage_SSA/Tuple<0>_bdd9)
+     LUT6:I4->O           13   0.203   0.933  S9/Stage_SSA/Tuple<0>31 (S9/Stage_SSA/Tuple<0>_bdd5)
+     LUT6:I5->O           17   0.205   1.132  S9/Stage_SSA/Tuple<0>13_1 (S9/Stage_SSA/Tuple<0>13)
+     LUT4:I2->O           13   0.203   0.933  S9/Stage_SS/Tuple[0]_Tuple[1]_AND_1_o1 (S9/Stage_SS/Tuple[0]_Tuple[1]_AND_1_o)
+     LUT4:I3->O            8   0.205   0.803  S9/Stage_SS/Tuple[0]_Tuple[3]_AND_17_o1 (S9/Stage_SS/Tuple[0]_Tuple[3]_AND_17_o)
+     LUT6:I5->O            2   0.205   0.864  S9/Stage_SS/Alpha<4>2 (S9/Stage_SS/Alpha<4>1)
+     LUT4:I0->O            1   0.203   0.808  S9/Stage_SS/Alpha<4>3_SW0 (N3447)
+     LUT6:I3->O            1   0.205   0.000  S9/Stage_SS/Alpha<4>22 (S9/SS<4>)
+     FDRE:D                    0.102          S9/S_4
+    ----------------------------------------
+    Total                     12.190ns (2.534ns logic, 9.656ns route)
+                                       (20.8% logic, 79.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 68770 / 536
+-------------------------------------------------------------------------
+Offset:              10.287ns (Levels of Logic = 8)
+  Source:            Msg_Rsv<1> (PAD)
+  Destination:       S9/S_4 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Msg_Rsv<1> to S9/S_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           699   1.222   2.499  Msg_Rsv_1_IBUF (Msg_Rsv_1_IBUF)
+     LUT6:I0->O            1   0.203   0.924  S9/Mxor_SSAA_1_xo<0>1_SW0_SW3 (N3376)
+     LUT6:I1->O           45   0.203   1.477  S9/Mxor_SSAA_1_xo<0>1 (S9/SSAA<1>)
+     LUT6:I5->O            3   0.205   0.651  S9/Stage_SS/Tuple[1]_Tuple[4]_AND_175_o1 (S9/Stage_SS/Tuple[1]_Tuple[4]_AND_175_o)
+     LUT6:I5->O            2   0.205   0.721  S9/Stage_SS/Alpha<4>231 (S9/Stage_SS/Alpha<4>23)
+     LUT6:I4->O            1   0.203   0.684  S9/Stage_SS/Alpha<4>6 (S9/Stage_SS/Alpha<4>7)
+     LUT6:I4->O            1   0.203   0.580  S9/Stage_SS/Alpha<4>13 (S9/Stage_SS/Alpha<4>14)
+     LUT6:I5->O            1   0.205   0.000  S9/Stage_SS/Alpha<4>22 (S9/SS<4>)
+     FDRE:D                    0.102          S9/S_4
+    ----------------------------------------
+    Total                     10.287ns (2.751ns logic, 7.536ns route)
+                                       (26.7% logic, 73.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 256 / 128
+-------------------------------------------------------------------------
+Offset:              5.790ns (Levels of Logic = 2)
+  Source:            S16/done (FF)
+  Destination:       S_1<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: S16/done to S_1<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.616  S16/done (S16/done)
+     INV:I->O            128   0.206   1.950  S16/done_inv1_INV_0 (S1/done_inv)
+     OBUFT:T->O                2.571          S_1_7_OBUFT (S_1<7>)
+    ----------------------------------------
+    Total                      5.790ns (3.224ns logic, 2.566ns route)
+                                       (55.7% logic, 44.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |   12.190|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 174.00 secs
+Total CPU time to Xst completion: 173.98 secs
+ 
+--> 
+
+Total memory usage is 340708 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :   27 (   0 filtered)
+

@@ -1,0 +1,28 @@
+Command line:
+   RS_encoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1298
+
+Wed Feb 24 10:07:53 2021
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 674.468 Meg
+
+ Total Signals          : 136
+ Total Nets             : 4823
+ Total Signal Drivers   : 84
+ Total Blocks           : 9
+ Total Primitive Blocks : 8
+ Total Processes        : 3
+ Total Traceable Variables  : 40
+ Total Scalar Nets and Variables : 5979
+
+ Total Simulation Time: 0.468003 sec
+
+ Current Memory Usage: 674.468 Meg
+
+Wed Feb 24 10:18:29 2021
+

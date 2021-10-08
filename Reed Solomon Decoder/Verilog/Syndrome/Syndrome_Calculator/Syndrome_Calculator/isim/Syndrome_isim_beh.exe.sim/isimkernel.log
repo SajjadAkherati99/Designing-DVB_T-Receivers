@@ -1,0 +1,28 @@
+Command line:
+   Syndrome_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3297
+
+Sun Apr 18 18:34:54 2021
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 683.209 Meg
+
+ Total Signals          : 25
+ Total Nets             : 70
+ Total Signal Drivers   : 25
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 29
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 185
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 683.209 Meg
+
+Sun Apr 18 18:34:59 2021
+

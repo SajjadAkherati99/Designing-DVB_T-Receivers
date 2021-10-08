@@ -1,0 +1,768 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: RS_encoder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RS_encoder.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RS_encoder"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : RS_encoder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\my files\course\projects\RS_encoder\Dynamic_RAM1.vhd" into library work
+Parsing entity <RAM1>.
+Parsing architecture <Behavioral> of entity <ram1>.
+Parsing VHDL file "D:\my files\course\projects\RS_encoder\Dynamic_RAM.vhd" into library work
+Parsing entity <RAM>.
+Parsing architecture <Behavioral> of entity <ram>.
+Parsing VHDL file "D:\my files\course\projects\RS_encoder\VHDL\RS_encoder\RS_encoder.vhd" into library work
+Parsing entity <RS_encoder>.
+Parsing architecture <Behavioral> of entity <rs_encoder>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RS_encoder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RAM1> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <RAM> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RS_encoder>.
+    Related source file is "D:\my files\course\projects\RS_encoder\VHDL\RS_encoder\RS_encoder.vhd".
+    Found 8-bit register for signal <c>.
+    Found 8-bit register for signal <D0>.
+    Found 8-bit register for signal <D1>.
+    Found 8-bit register for signal <D2>.
+    Found 8-bit register for signal <D3>.
+    Found 8-bit register for signal <D4>.
+    Found 8-bit register for signal <D5>.
+    Found 8-bit register for signal <D6>.
+    Found 8-bit register for signal <D7>.
+    Found 8-bit register for signal <D8>.
+    Found 8-bit register for signal <D9>.
+    Found 8-bit register for signal <D10>.
+    Found 8-bit register for signal <D11>.
+    Found 8-bit register for signal <D12>.
+    Found 8-bit register for signal <D13>.
+    Found 8-bit register for signal <D14>.
+    Found 8-bit register for signal <D15>.
+    Found 8-bit register for signal <dout>.
+    Found 8-bit register for signal <X16>.
+    Found 8-bit adder for signal <c[7]_GND_6_o_add_0_OUT> created at line 118.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_47_OUT> created at line 146.
+    Found 8-bit adder for signal <n0397> created at line 148.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_49_OUT> created at line 148.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_55_OUT> created at line 152.
+    Found 8-bit adder for signal <n0407> created at line 154.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_57_OUT> created at line 154.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_63_OUT> created at line 158.
+    Found 8-bit adder for signal <n0417> created at line 160.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_65_OUT> created at line 160.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_71_OUT> created at line 164.
+    Found 8-bit adder for signal <n0427> created at line 166.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_73_OUT> created at line 166.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_79_OUT> created at line 170.
+    Found 8-bit adder for signal <n0437> created at line 172.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_81_OUT> created at line 172.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_87_OUT> created at line 176.
+    Found 8-bit adder for signal <n0447> created at line 178.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_89_OUT> created at line 178.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_95_OUT> created at line 182.
+    Found 8-bit adder for signal <n0457> created at line 184.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_97_OUT> created at line 184.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_103_OUT> created at line 188.
+    Found 8-bit adder for signal <n0467> created at line 190.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_105_OUT> created at line 190.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_111_OUT> created at line 194.
+    Found 8-bit adder for signal <n0477> created at line 196.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_113_OUT> created at line 196.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_119_OUT> created at line 200.
+    Found 8-bit adder for signal <n0487> created at line 202.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_121_OUT> created at line 202.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_127_OUT> created at line 206.
+    Found 8-bit adder for signal <n0497> created at line 208.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_129_OUT> created at line 208.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_135_OUT> created at line 212.
+    Found 8-bit adder for signal <n0507> created at line 214.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_137_OUT> created at line 214.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_143_OUT> created at line 218.
+    Found 8-bit adder for signal <n0517> created at line 220.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_145_OUT> created at line 220.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_151_OUT> created at line 224.
+    Found 8-bit adder for signal <n0527> created at line 226.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_153_OUT> created at line 226.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_159_OUT> created at line 230.
+    Found 8-bit adder for signal <n0537> created at line 232.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_161_OUT> created at line 232.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_167_OUT> created at line 236.
+    Found 8-bit adder for signal <n0547> created at line 238.
+    Found 8-bit adder for signal <Y16[7]_GND_6_o_add_169_OUT> created at line 238.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_164_OUT> created at line 235.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_140_OUT> created at line 217.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_132_OUT> created at line 211.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_60_OUT> created at line 157.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_76_OUT> created at line 169.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_68_OUT> created at line 163.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_44_OUT> created at line 145.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_52_OUT> created at line 151.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_84_OUT> created at line 175.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_92_OUT> created at line 181.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_100_OUT> created at line 187.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_108_OUT> created at line 193.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_116_OUT> created at line 199.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_124_OUT> created at line 205.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_148_OUT> created at line 223.
+    Found 9-bit adder for signal <GND_6_o_GND_6_o_add_156_OUT> created at line 229.
+    Found 8-bit comparator lessequal for signal <n0002> created at line 127
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_46_o> created at line 145
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_54_o> created at line 151
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_62_o> created at line 157
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_70_o> created at line 163
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_78_o> created at line 169
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_86_o> created at line 175
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_94_o> created at line 181
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_102_o> created at line 187
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_110_o> created at line 193
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_118_o> created at line 199
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_126_o> created at line 205
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_134_o> created at line 211
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_142_o> created at line 217
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_150_o> created at line 223
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_158_o> created at line 229
+    Found 9-bit comparator greater for signal <GND_6_o_GND_6_o_LessThan_166_o> created at line 235
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal Y16 may hinder XST clustering optimizations.
+    Summary:
+	inferred  65 Adder/Subtractor(s).
+	inferred 152 D-type flip-flop(s).
+	inferred  17 Comparator(s).
+	inferred  34 Multiplexer(s).
+Unit <RS_encoder> synthesized.
+
+Synthesizing Unit <RAM1>.
+    Related source file is "D:\my files\course\projects\RS_encoder\Dynamic_RAM1.vhd".
+        data_width = 8
+        address_width = 8
+INFO:Xst:3038 - The RAM <memory> appears to be read-only. If that was not your intent please check the write enable description.
+    Found 8-bit register for signal <data1>.
+    Found 8-bit register for signal <data2>.
+    Found 8-bit register for signal <data3>.
+    Found 8-bit register for signal <data4>.
+    Found 8-bit register for signal <data5>.
+    Found 8-bit register for signal <data6>.
+    Found 8-bit register for signal <data7>.
+    Found 8-bit register for signal <data8>.
+    Found 8-bit register for signal <data9>.
+    Found 8-bit register for signal <data10>.
+    Found 8-bit register for signal <data11>.
+    Found 8-bit register for signal <data12>.
+    Found 8-bit register for signal <data13>.
+    Found 8-bit register for signal <data14>.
+    Found 8-bit register for signal <data15>.
+    Found 8-bit register for signal <data0>.
+    Found 256x8-bit dual-port Read Only RAM <Mram_memory> for signal <memory>.
+    Summary:
+	inferred   8 RAM(s).
+	inferred 128 D-type flip-flop(s).
+Unit <RAM1> synthesized.
+
+Synthesizing Unit <RAM>.
+    Related source file is "D:\my files\course\projects\RS_encoder\Dynamic_RAM.vhd".
+        data_width = 8
+        address_width = 8
+    Found 256x8-bit single-port RAM <Mram_memory> for signal <memory>.
+    Found 8-bit register for signal <data>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <RAM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 256x8-bit dual-port Read Only RAM                     : 8
+ 256x8-bit single-port RAM                             : 1
+# Adders/Subtractors                                   : 65
+ 8-bit adder                                           : 49
+ 9-bit adder                                           : 16
+# Registers                                            : 36
+ 8-bit register                                        : 36
+# Comparators                                          : 17
+ 8-bit comparator lessequal                            : 1
+ 9-bit comparator greater                              : 16
+# Multiplexers                                         : 34
+ 8-bit 2-to-1 multiplexer                              : 34
+# Xors                                                 : 16
+ 8-bit xor2                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <RAM1>.
+INFO:Xst:3226 - The RAM <Mram_memory1> will be implemented as a BLOCK RAM, absorbing the following register(s): <data2> <data3>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address2>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data2>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address3>      |          |
+    |     doB            | connected to signal <data3>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory2> will be implemented as a BLOCK RAM, absorbing the following register(s): <data4> <data5>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address4>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data4>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address5>      |          |
+    |     doB            | connected to signal <data5>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory4> will be implemented as a BLOCK RAM, absorbing the following register(s): <data8> <data9>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address8>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data8>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address9>      |          |
+    |     doB            | connected to signal <data9>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory3> will be implemented as a BLOCK RAM, absorbing the following register(s): <data6> <data7>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address6>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data6>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address7>      |          |
+    |     doB            | connected to signal <data7>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory5> will be implemented as a BLOCK RAM, absorbing the following register(s): <data10> <data11>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address10>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data10>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address11>     |          |
+    |     doB            | connected to signal <data11>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory7> will be implemented as a BLOCK RAM, absorbing the following register(s): <data14> <data15>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address14>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data14>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address15>     |          |
+    |     doB            | connected to signal <data15>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <Mram_memory6> will be implemented as a BLOCK RAM, absorbing the following register(s): <data12> <data13>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <address12>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <data12>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <address13>     |          |
+    |     doB            | connected to signal <data13>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <RAM1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <RS_encoder>.
+The following registers are absorbed into counter <c>: 1 register on signal <c>.
+INFO:Xst:3226 - The RAM <uut1/Mram_memory> will be implemented as a BLOCK RAM, absorbing the following register(s): <uut1/data0> <uut1/data1> <D0>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <X0>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <D0>            |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <X1>            |          |
+    |     doB            | connected to signal <Y1>            |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3226 - The RAM <uut/Mram_memory> will be implemented as a BLOCK RAM, absorbing the following register(s): <uut/data>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <X16>           |          |
+    |     diA            | connected to signal <Y16>           |          |
+    |     doA            | connected to signal <Y16>           |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <RS_encoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 256x8-bit dual-port block Read Only RAM               : 8
+ 256x8-bit single-port block RAM                       : 1
+# Adders/Subtractors                                   : 65
+ 8-bit adder                                           : 49
+ 9-bit adder                                           : 16
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 136
+ Flip-Flops                                            : 136
+# Comparators                                          : 17
+ 8-bit comparator lessequal                            : 1
+ 9-bit comparator greater                              : 16
+# Multiplexers                                         : 34
+ 8-bit 2-to-1 multiplexer                              : 34
+# Xors                                                 : 16
+ 8-bit xor2                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RS_encoder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RS_encoder, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 144
+ Flip-Flops                                            : 144
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RS_encoder.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 460
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 7
+#      LUT2                        : 132
+#      LUT3                        : 49
+#      LUT4                        : 53
+#      LUT5                        : 65
+#      LUT6                        : 125
+#      MUXCY                       : 7
+#      MUXF7                       : 10
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 144
+#      FDC                         : 8
+#      FDE                         : 136
+# RAMS                             : 9
+#      RAMB8BWER                   : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             144  out of  54576     0%  
+ Number of Slice LUTs:                  433  out of  27288     1%  
+    Number used as Logic:               433  out of  27288     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    433
+   Number with an unused Flip Flop:     289  out of    433    66%  
+   Number with an unused LUT:             0  out of    433     0%  
+   Number of fully used LUT-FF pairs:   144  out of    433    33%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    218     8%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                5  out of    116     4%  
+    Number using Block RAM only:          5
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 153   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 7.424ns (Maximum Frequency: 134.696MHz)
+   Minimum input arrival time before clock: 4.636ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.424ns (frequency: 134.696MHz)
+  Total number of paths / destination ports: 3971 / 288
+-------------------------------------------------------------------------
+Delay:               7.424ns (Levels of Logic = 4)
+  Source:            uut/Mram_memory (RAM)
+  Destination:       uut1/Mram_memory6 (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: uut/Mram_memory to uut1/Mram_memory6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKAWRCLK->DOADO4   92   1.650   1.825  uut/Mram_memory (Madd_GND_6_o_GND_6_o_add_100_OUT_lut<4>)
+     LUT2:I1->O            6   0.205   0.745  Madd_n0407_cy<5>11 (Madd_n0407_cy<5>)
+     LUT6:I5->O            7   0.205   0.878  Madd_GND_6_o_GND_6_o_add_140_OUT_cy<7>11 (Madd_GND_6_o_GND_6_o_add_140_OUT_cy<7>)
+     LUT5:I3->O            1   0.203   0.580  Mmux_X12811 (Mmux_X1281)
+     LUT5:I4->O            1   0.205   0.579  Mmux_X1281 (X12<7>)
+     RAMB8BWER:ADDRAWRADDR10        0.350          uut1/Mram_memory6
+    ----------------------------------------
+    Total                      7.424ns (2.818ns logic, 4.606ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 161 / 161
+-------------------------------------------------------------------------
+Offset:              4.636ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       c_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to c_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           138   1.222   1.976  reset_IBUF (reset_IBUF)
+     INV:I->O              8   0.206   0.802  reset_inv1_INV_0 (reset_inv)
+     FDC:CLR                   0.430          c_0
+    ----------------------------------------
+    Total                      4.636ns (1.858ns logic, 2.778ns route)
+                                       (40.1% logic, 59.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            dout_7 (FF)
+  Destination:       dout<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dout_7 to dout<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.579  dout_7 (dout_7)
+     OBUF:I->O                 2.571          dout_7_OBUF (dout<7>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.424|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.44 secs
+ 
+--> 
+
+Total memory usage is 267304 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

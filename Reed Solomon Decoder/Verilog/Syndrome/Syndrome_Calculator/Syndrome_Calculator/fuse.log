@@ -1,0 +1,41 @@
+Running: E:\software.engineer\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/testbench_isim_beh.exe -prj E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/../../../../../alpha tuple/tuple_to_alpha/Tuple_To_Alpha/Tuple_To_Alpha.v" into library work
+Analyzing Verilog file "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/../../../../../alpha tuple/alpha_to_tuple/Alpha_To_Tuple/Alpha_To_Tuple.v" into library work
+Analyzing Verilog file "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/../../Syndrome/Syndrome.v" into library work
+Analyzing Verilog file "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" into library work
+Analyzing Verilog file "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/testbench.v" into library work
+Analyzing Verilog file "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 22: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 30: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 38: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 46: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 54: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 62: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 70: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 78: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 86: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 94: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 102: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 110: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 118: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 126: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 134: Port done is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 142: Port done is not connected to this instance
+Completed static elaboration
+Compiling module Tuple_To_Alpha
+Compiling module Alpha_To_Tuple
+Compiling module Syndrome
+Compiling module Syndrome_Calculator
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/testbench_isim_beh.exe
+Fuse Memory Usage: 106328 KB
+Fuse CPU Usage: 5085 ms

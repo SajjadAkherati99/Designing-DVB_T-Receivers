@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Syndrome_Calculator.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Syndrome_Calculator.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Syndrome_Calculator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Syndrome_Calculator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Syndrome_Calculator.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Syndrome_Calculator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Syndrome_Calculator.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Syndrome_Calculator.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Syndrome_Calculator.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Syndrome_Calculator.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Syndrome_Calculator.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Syndrome_Calculator.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Syndrome_Calculator.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Syndrome_Calculator.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Syndrome_Calculator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Syndrome_Calculator.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Syndrome_Calculator.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Syndrome_Calculator.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Syndrome_Calculator.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Syndrome_Calculator.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Syndrome_Calculator_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Syndrome_Calculator_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Syndrome_Calculator_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Syndrome_Calculator_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Syndrome_Calculator_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Syndrome_Calculator_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Syndrome_Calculator_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Syndrome_Calculator_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Syndrome_Calculator_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Syndrome_Calculator_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Syndrome_Calculator_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Syndrome_Calculator_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Syndrome_Calculator_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Syndrome_Calculator_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Syndrome_Calculator_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Syndrome_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Syndrome_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1618754099" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1618754099">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618755321" xil_pn:in_ck="4706298558881519363" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1618755321">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../../../../alpha tuple/alpha_to_tuple/Alpha_To_Tuple/Alpha_To_Tuple.v"/>
+      <outfile xil_pn:name="../../../../../alpha tuple/tuple_to_alpha/Tuple_To_Alpha/Tuple_To_Alpha.v"/>
+      <outfile xil_pn:name="../../Syndrome/Syndrome.v"/>
+      <outfile xil_pn:name="Syndrome_Calculator.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1618755573" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1854889385420917559" xil_pn:start_ts="1618755573">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618755573" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4440119131342655243" xil_pn:start_ts="1618755573">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618754160" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3238674981450462368" xil_pn:start_ts="1618754160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618755325" xil_pn:in_ck="4706298558881519363" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1618755325">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../../../../alpha tuple/alpha_to_tuple/Alpha_To_Tuple/Alpha_To_Tuple.v"/>
+      <outfile xil_pn:name="../../../../../alpha tuple/tuple_to_alpha/Tuple_To_Alpha/Tuple_To_Alpha.v"/>
+      <outfile xil_pn:name="../../Syndrome/Syndrome.v"/>
+      <outfile xil_pn:name="Syndrome_Calculator.v"/>
+      <outfile xil_pn:name="testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1621777967" xil_pn:in_ck="4706298558881519363" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4369301261354119187" xil_pn:start_ts="1621777935">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testbench_beh.prj"/>
+      <outfile xil_pn:name="testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1621777967" xil_pn:in_ck="4131623377152083256" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3254652840144843728" xil_pn:start_ts="1621777967">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testbench_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-9092514781151601169" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3238674981450462368" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6487396100789060943" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108489" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2082942142852126570" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108667" xil_pn:in_ck="9130797302696949855" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2003237306713400209" xil_pn:start_ts="1618108489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Syndrome_Calculator.lso"/>
+      <outfile xil_pn:name="Syndrome_Calculator.ngc"/>
+      <outfile xil_pn:name="Syndrome_Calculator.ngr"/>
+      <outfile xil_pn:name="Syndrome_Calculator.prj"/>
+      <outfile xil_pn:name="Syndrome_Calculator.stx"/>
+      <outfile xil_pn:name="Syndrome_Calculator.syr"/>
+      <outfile xil_pn:name="Syndrome_Calculator.xst"/>
+      <outfile xil_pn:name="Syndrome_Calculator_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108667" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7726694291318962212" xil_pn:start_ts="1618108667">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108677" xil_pn:in_ck="-1491396049520837728" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8206528898323166047" xil_pn:start_ts="1618108667">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Syndrome_Calculator.bld"/>
+      <outfile xil_pn:name="Syndrome_Calculator.ngd"/>
+      <outfile xil_pn:name="Syndrome_Calculator_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108846" xil_pn:in_ck="-1491396049520837727" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4245753365082497697" xil_pn:start_ts="1618108677">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Syndrome_Calculator.pcf"/>
+      <outfile xil_pn:name="Syndrome_Calculator_map.map"/>
+      <outfile xil_pn:name="Syndrome_Calculator_map.mrp"/>
+      <outfile xil_pn:name="Syndrome_Calculator_map.ncd"/>
+      <outfile xil_pn:name="Syndrome_Calculator_map.ngm"/>
+      <outfile xil_pn:name="Syndrome_Calculator_map.xrpt"/>
+      <outfile xil_pn:name="Syndrome_Calculator_summary.xml"/>
+      <outfile xil_pn:name="Syndrome_Calculator_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108947" xil_pn:in_ck="-4072654442795666630" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-3829590541433901613" xil_pn:start_ts="1618108846">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Syndrome_Calculator.ncd"/>
+      <outfile xil_pn:name="Syndrome_Calculator.pad"/>
+      <outfile xil_pn:name="Syndrome_Calculator.par"/>
+      <outfile xil_pn:name="Syndrome_Calculator.ptwx"/>
+      <outfile xil_pn:name="Syndrome_Calculator.unroutes"/>
+      <outfile xil_pn:name="Syndrome_Calculator.xpi"/>
+      <outfile xil_pn:name="Syndrome_Calculator_pad.csv"/>
+      <outfile xil_pn:name="Syndrome_Calculator_pad.txt"/>
+      <outfile xil_pn:name="Syndrome_Calculator_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1618108947" xil_pn:in_ck="-1491396049520837859" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1618108934">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Syndrome_Calculator.twr"/>
+      <outfile xil_pn:name="Syndrome_Calculator.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

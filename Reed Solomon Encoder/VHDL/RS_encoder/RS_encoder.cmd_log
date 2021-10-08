@@ -1,0 +1,247 @@
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+xst -intstyle ise -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -ifn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.xst" -ofn "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "RS_encoder.ngc" RS_encoder.ngd  
+map -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o RS_encoder_map.ncd RS_encoder.ngd RS_encoder.pcf 
+par -filter "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off RS_encoder_map.ncd RS_encoder.ncd RS_encoder.pcf 
+trce -filter {D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS_encoder.twx RS_encoder.ncd -o RS_encoder.twr RS_encoder.pcf 

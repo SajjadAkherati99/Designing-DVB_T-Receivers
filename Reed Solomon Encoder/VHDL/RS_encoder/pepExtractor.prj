@@ -1,0 +1,3 @@
+work	"../../Dynamic_RAM.vhd"
+work	"../../Dynamic_RAM1.vhd"
+work	"RS_encoder.vhd"

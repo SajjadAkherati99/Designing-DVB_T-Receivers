@@ -1,0 +1,204 @@
+`timescale 1ns / 1ps
+module Syndrome(Msg_Rsv, CS, Clk, Reset, done, S1,
+					S2, S3, S4, S5, S6, S7, S8,
+					S9, S10, S11, S12, S13, S14,
+					S15, S16);
+	input Clk, CS, Reset;
+	input [7:0]Msg_Rsv;
+	output done;
+	output [7:0]S1,S2, S3, S4, S5, S6, S7, S8, S9,
+					S10, S11, S12, S13, S14, S15, S16;
+
+	wire Clk, CS, Reset;
+	wire [7:0]Msg_Rsv;
+	wire done;
+	reg [7:0]S1,S2, S3, S4, S5, S6, S7, S8, S9,
+					S10, S11, S12, S13, S14, S15, S16;
+					
+					
+	wire [7:0]SS1,SS2, SS3, SS4, SS5, SS6, SS7, SS8, SS9,
+					SS10, SS11, SS12, SS13, SS14, SS15, SS16;
+					
+	reg [8:0]SSM1,SSM2, SSM3, SSM4, SSM5, SSM6, SSM7, SSM8, SSM9,
+					SSM10, SSM11, SSM12, SSM13, SSM14, SSM15, SSM16;
+
+	wire [7:0]SSA1,SSA2, SSA3, SSA4, SSA5, SSA6, SSA7, SSA8, SSA9,
+					SSA10, SSA11, SSA12, SSA13, SSA14, SSA15, SSA16;
+
+	reg [7:0]SSAA1,SSAA2, SSAA3, SSAA4, SSAA5, SSAA6, SSAA7, SSAA8, SSAA9,
+					SSAA10, SSAA11, SSAA12, SSAA13, SSAA14, SSAA15, SSAA16;
+	
+	Tuple_To_Alpha Stage_SS1(SSAA1, SS1);
+	Tuple_To_Alpha Stage_SS2(SSAA2, SS2);
+	Tuple_To_Alpha Stage_SS3(SSAA3, SS3);
+	Tuple_To_Alpha Stage_SS4(SSAA4, SS4);
+	Tuple_To_Alpha Stage_SS5(SSAA5, SS5);
+	Tuple_To_Alpha Stage_SS6(SSAA6, SS6);
+	Tuple_To_Alpha Stage_SS7(SSAA7, SS7);
+	Tuple_To_Alpha Stage_SS8(SSAA8, SS8);
+	Tuple_To_Alpha Stage_SS9(SSAA9, SS9);
+	Tuple_To_Alpha Stage_SS10(SSAA10, SS10);
+	Tuple_To_Alpha Stage_SS11(SSAA11, SS11);
+	Tuple_To_Alpha Stage_SS12(SSAA12, SS12);
+	Tuple_To_Alpha Stage_SS13(SSAA13, SS13);
+	Tuple_To_Alpha Stage_SS14(SSAA14, SS14);
+	Tuple_To_Alpha Stage_SS15(SSAA15, SS15);
+	Tuple_To_Alpha Stage_SS16(SSAA16, SS16);
+	
+	Alpha_To_Tuple Stage_SSA1(SSM1[7:0], SSA1);
+	Alpha_To_Tuple Stage_SSA2(SSM1[7:0], SSA2);
+	Alpha_To_Tuple Stage_SSA3(SSM3[7:0], SSA3);
+	Alpha_To_Tuple Stage_SSA4(SSM4[7:0], SSA4);
+	Alpha_To_Tuple Stage_SSA5(SSM5[7:0], SSA5);
+	Alpha_To_Tuple Stage_SSA6(SSM6[7:0], SSA6);
+	Alpha_To_Tuple Stage_SSA7(SSM7[7:0], SSA7);
+	Alpha_To_Tuple Stage_SSA8(SSM8[7:0], SSA8);
+	Alpha_To_Tuple Stage_SSA9(SSM9[7:0], SSA9);
+	Alpha_To_Tuple Stage_SSA10(SSM10[7:0], SSA10);
+	Alpha_To_Tuple Stage_SSA11(SSM11[7:0], SSA11);
+	Alpha_To_Tuple Stage_SSA12(SSM12[7:0], SSA12);
+	Alpha_To_Tuple Stage_SSA13(SSM13[7:0], SSA13);
+	Alpha_To_Tuple Stage_SSA14(SSM14[7:0], SSA14);
+	Alpha_To_Tuple Stage_SSA15(SSM15[7:0], SSA15);
+	Alpha_To_Tuple Stage_SSA16(SSM16[7:0], SSA16);
+	
+	always @(posedge Clk) begin
+		if(CS) begin
+			if(!Reset)begin
+				S1 <= 0;
+				S2 <= 0;
+				S3 <= 0;
+				S4 <= 0;
+				S5 <= 0;
+				S6 <= 0;
+				S7 <= 0;
+				S8 <= 0;
+				S9 <= 0;
+				S10 <= 0;
+				S11 <= 0;
+				S12 <= 0;
+				S13 <= 0;
+				S14 <= 0;
+				S15 <= 0;
+				S16 <= 0;
+			end
+			else begin
+				S1 <= SS1;
+				S2 <= SS2;
+				S3 <= SS3;
+				S4 <= SS4;
+				S5 <= SS5;
+				S6 <= SS6;
+				S7 <= SS7;
+				S8 <= SS8;
+				S9 <= SS9;
+				S10 <= SS10;
+				S11 <= SS11;
+				S12 <= SS12;
+				S13 <= SS13;
+				S14 <= SS14;
+				S15 <= SS15;
+				S16 <= SS16;
+				
+				SSAA1 <= SSA1 ^ Msg_Rsv;
+				SSAA2 <= SSA2 ^ Msg_Rsv;
+				SSAA3 <= SSA3 ^ Msg_Rsv;
+				SSAA4 <= SSA4 ^ Msg_Rsv;
+				SSAA5 <= SSA5 ^ Msg_Rsv;
+				SSAA6 <= SSA6 ^ Msg_Rsv;
+				SSAA7 <= SSA7 ^ Msg_Rsv;
+				SSAA8 <= SSA8 ^ Msg_Rsv;
+				SSAA9 <= SSA9 ^ Msg_Rsv;
+				SSAA10 <= SSA10 ^ Msg_Rsv;
+				SSAA11 <= SSA11 ^ Msg_Rsv;
+				SSAA12 <= SSA12 ^ Msg_Rsv;
+				SSAA13 <= SSA13 ^ Msg_Rsv;
+				SSAA14 <= SSA14 ^ Msg_Rsv;
+				SSAA15 <= SSA15 ^ Msg_Rsv;
+				SSAA16 <= SSA16 ^ Msg_Rsv;
+			end
+		end
+	end
+
+	always @(SS1)begin
+		SSM1 = SS1 + 1'b1;
+		if (SSM1[8])
+			SSM1 = SSM1 + 1'b1;
+	end
+	always @(SS2)begin
+		SSM2 = SS2 + 2'b10;
+		if (SSM2[8])
+			SSM2 = SSM2 + 1'b1;
+	end
+	always @(SS3)begin
+		SSM3 = SS3 + 2'b11;
+		if (SSM3[8])
+			SSM3 = SSM3 + 1'b1;
+	end
+	always @(SS4)begin
+		SSM4 = SS4 + 3'b100;
+		if (SSM4[8])
+			SSM4 = SSM4 + 1'b1;
+	end
+	always @(SS5)begin
+		SSM5 = SS5 + 3'b101;
+		if (SSM5[8])
+			SSM5 = SSM5 + 1'b1;
+	end
+	always @(SS6)begin
+		SSM6 = SS6 + 3'b110;
+		if (SSM6[8])
+			SSM6 = SSM6 + 1'b1;
+	end
+	always @(SS7)begin
+		SSM7 = SS7 + 3'b111;
+		if (SSM7[8])
+			SSM7 = SSM7 + 1'b1;
+	end
+	always @(SS8)begin
+		SSM8 = SS8 + 4'b1000;
+		if (SSM8[8])
+			SSM8 = SSM8 + 1'b1;
+	end
+	always @(SS9)begin
+		SSM9 = SS9 + 4'b1001;
+		if (SSM9[8])
+			SSM9 = SSM9 + 1'b1;
+	end
+	always @(SS10)begin
+		SSM10 = SS10 + 4'b1010;
+		if (SSM10[8])
+			SSM10 = SSM10 + 1'b1;
+	end
+	always @(SS11)begin
+		SSM11 = SS11 + 4'b1011;
+		if (SSM11[8])
+			SSM11 = SSM11 + 1'b1;
+	end
+	always @(SS12)begin
+		SSM12 = SS12 + 4'b1100;
+		if (SSM12[8])
+			SSM12 = SSM12 + 1'b1;
+	end
+	always @(SS13)begin
+		SSM13 = SS13 + 4'b1101;
+		if (SSM13[8])
+			SSM13 = SSM13 + 1'b1;
+	end
+	always @(SS14)begin
+		SSM14 = SS14 + 4'b1110;
+		if (SSM14[8])
+			SSM14 = SSM14 + 1'b1;
+	end
+	always @(SS15)begin
+		SSM15 = SS15 + 4'b1111;
+		if (SSM15[8])
+			SSM15 = SSM15 + 1'b1;
+	end
+	always @(SS16)begin
+		SSM16 = SS16 + 5'b10000;
+		if (SSM16[8])
+			SSM16 = SSM16 + 1'b1;
+	end
+	
+endmodule

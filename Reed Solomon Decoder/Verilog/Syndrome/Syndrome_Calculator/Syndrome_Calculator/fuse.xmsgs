@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 22: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 30: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 38: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 46: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 54: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 62: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 70: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 78: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 86: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 94: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 102: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 110: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 118: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 126: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 134: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"E:/my_files/course/projects/RS_decoder/Verilog/Syndrome/Syndrome_Calculator/Syndrome_Calculator/Syndrome_Calculator.v" Line 142: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+</messages>
+

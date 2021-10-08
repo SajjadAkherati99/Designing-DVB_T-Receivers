@@ -1,0 +1,615 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: error_Locations.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "error_Locations.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "error_Locations"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : error_Locations
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\my_files\course\projects\RS_decoder\Verilog\Error_Locations\error_Locations.v" into library work
+Parsing module <error_Locations>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <error_Locations>.
+Reading initialization file \"alpha.txt\".
+Reading initialization file \"tuple.txt\".
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <error_Locations>.
+    Related source file is "E:\my_files\course\projects\RS_decoder\Verilog\Error_Locations\error_Locations.v".
+WARNING:Xst:2999 - Signal 'alpha', unconnected in block 'error_Locations', is tied to its initial value.
+WARNING:Xst:2999 - Signal 'tuple', unconnected in block 'error_Locations', is tied to its initial value.
+    Found 256x8-bit single-port Read Only RAM <Mram_tuple> for signal <tuple>.
+    Found 8-bit register for signal <alpha_counter>.
+    Found 12-bit register for signal <ax1>.
+    Found 12-bit register for signal <ax2>.
+    Found 12-bit register for signal <ax3>.
+    Found 12-bit register for signal <ax4>.
+    Found 12-bit register for signal <ax5>.
+    Found 12-bit register for signal <ax6>.
+    Found 12-bit register for signal <ax7>.
+    Found 12-bit register for signal <ax8>.
+    Found 3-bit register for signal <i>.
+    Found 64-bit register for signal <n0160[63:0]>.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_67_OUT> created at line 76.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_73_OUT> created at line 83.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_79_OUT> created at line 90.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_85_OUT> created at line 97.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_91_OUT> created at line 104.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_97_OUT> created at line 111.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_103_OUT> created at line 118.
+    Found 8-bit subtractor for signal <PWR_1_o_GND_1_o_sub_109_OUT> created at line 125.
+    Found 9-bit adder for signal <n0309[8:0]> created at line 45.
+    Found 9-bit adder for signal <n0311[8:0]> created at line 46.
+    Found 9-bit adder for signal <n0313[8:0]> created at line 47.
+    Found 9-bit adder for signal <n0315[8:0]> created at line 48.
+    Found 9-bit adder for signal <n0317[8:0]> created at line 49.
+    Found 9-bit adder for signal <n0319[8:0]> created at line 50.
+    Found 9-bit adder for signal <n0321[8:0]> created at line 51.
+    Found 9-bit adder for signal <n0323[8:0]> created at line 52.
+    Found 8-bit adder for signal <alpha_counter[7]_GND_1_o_add_15_OUT> created at line 57.
+    Found 3-bit adder for signal <i[2]_GND_1_o_add_25_OUT> created at line 58.
+    Found 8-bit adder for signal <alpha_counter[7]_GND_1_o_add_29_OUT> created at line 61.
+    Found 9-bit adder for signal <n0332[8:0]> created at line 63.
+    Found 10-bit adder for signal <n0335[9:0]> created at line 64.
+    Found 10-bit adder for signal <n0338[9:0]> created at line 65.
+    Found 11-bit adder for signal <n0341[10:0]> created at line 65.
+    Found 11-bit adder for signal <n0344[10:0]> created at line 66.
+    Found 11-bit adder for signal <n0347[10:0]> created at line 67.
+    Found 12-bit adder for signal <n0285> created at line 67.
+    Found 11-bit adder for signal <n0353[10:0]> created at line 68.
+    Found 12-bit adder for signal <n0287> created at line 68.
+    Found 11-bit adder for signal <n0359[10:0]> created at line 69.
+    Found 12-bit adder for signal <n0290> created at line 71.
+    Found 8-bit adder for signal <ax1[7]_GND_1_o_add_69_OUT> created at line 77.
+    Found 8-bit adder for signal <n0369> created at line 79.
+    Found 8-bit adder for signal <ax2[7]_GND_1_o_add_75_OUT> created at line 84.
+    Found 8-bit adder for signal <n0374> created at line 86.
+    Found 8-bit adder for signal <ax3[7]_GND_1_o_add_81_OUT> created at line 91.
+    Found 8-bit adder for signal <n0379> created at line 93.
+    Found 8-bit adder for signal <ax4[7]_GND_1_o_add_87_OUT> created at line 98.
+    Found 8-bit adder for signal <n0384> created at line 100.
+    Found 8-bit adder for signal <ax5[7]_GND_1_o_add_93_OUT> created at line 105.
+    Found 8-bit adder for signal <n0389> created at line 107.
+    Found 8-bit adder for signal <ax6[7]_GND_1_o_add_99_OUT> created at line 112.
+    Found 8-bit adder for signal <n0394> created at line 114.
+    Found 8-bit adder for signal <ax7[7]_GND_1_o_add_105_OUT> created at line 119.
+    Found 8-bit adder for signal <n0399> created at line 121.
+    Found 8-bit adder for signal <ax8[7]_GND_1_o_add_111_OUT> created at line 126.
+    Found 8-bit adder for signal <n0404> created at line 128.
+    Found 12-bit adder for signal <_n0425> created at line 69.
+    Found 12-bit adder for signal <BUS_0023_GND_1_o_add_42_OUT> created at line 69.
+    Found 256x8-bit dual-port Read Only RAM <Mram_alpha> for signal <alpha>.
+    Found 8-bit comparator greater for signal <alpha_counter[7]_PWR_1_o_LessThan_29_o> created at line 60
+    Found 8-bit comparator greater for signal <PWR_1_o_ax1[7]_LessThan_68_o> created at line 76
+    Found 8-bit comparator greater for signal <PWR_1_o_ax2[7]_LessThan_74_o> created at line 83
+    Found 8-bit comparator greater for signal <PWR_1_o_ax3[7]_LessThan_80_o> created at line 90
+    Found 8-bit comparator greater for signal <PWR_1_o_ax4[7]_LessThan_86_o> created at line 97
+    Found 8-bit comparator greater for signal <PWR_1_o_ax5[7]_LessThan_92_o> created at line 104
+    Found 8-bit comparator greater for signal <PWR_1_o_ax6[7]_LessThan_98_o> created at line 111
+    Found 8-bit comparator greater for signal <PWR_1_o_ax7[7]_LessThan_104_o> created at line 118
+    Found 8-bit comparator greater for signal <PWR_1_o_ax8[7]_LessThan_110_o> created at line 125
+    Summary:
+	inferred   5 RAM(s).
+	inferred  48 Adder/Subtractor(s).
+	inferred 171 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  24 Multiplexer(s).
+Unit <error_Locations> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 256x8-bit dual-port Read Only RAM                     : 4
+ 256x8-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 48
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 5
+ 12-bit adder                                          : 5
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 18
+ 8-bit subtractor                                      : 8
+ 9-bit adder                                           : 9
+# Registers                                            : 11
+ 12-bit register                                       : 8
+ 3-bit register                                        : 1
+ 64-bit register                                       : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 9
+ 8-bit comparator greater                              : 9
+# Multiplexers                                         : 24
+ 12-bit 2-to-1 multiplexer                             : 8
+ 8-bit 2-to-1 multiplexer                              : 16
+# Xors                                                 : 1
+ 8-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <error_Locations>.
+The following registers are absorbed into counter <i>: 1 register on signal <i>.
+The following registers are absorbed into counter <alpha_counter>: 1 register on signal <alpha_counter>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0023_GND_1_o_add_42_OUT1> :
+ 	<Madd_n0359[10:0]> in block <error_Locations>, 	<Madd__n0425> in block <error_Locations>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_alpha> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x1a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     addrB          | connected to signal <x2a>           |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_alpha1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x3a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     addrB          | connected to signal <x4a>           |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_alpha2> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x5a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     addrB          | connected to signal <x6a>           |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_alpha3> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x7a>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     addrB          | connected to signal <x8a>           |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_tuple> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <x1a[7]_GND_1_o_xor_129_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <error_Locations> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 256x8-bit dual-port distributed Read Only RAM         : 4
+ 256x8-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 43
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 4
+ 12-bit adder                                          : 3
+ 8-bit adder                                           : 17
+ 8-bit subtractor                                      : 8
+ 9-bit adder                                           : 9
+# Adder Trees                                          : 1
+ 12-bit / 4-inputs adder tree                          : 1
+# Counters                                             : 2
+ 3-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 160
+ Flip-Flops                                            : 160
+# Comparators                                          : 9
+ 8-bit comparator greater                              : 9
+# Multiplexers                                         : 80
+ 1-bit 2-to-1 multiplexer                              : 64
+ 12-bit 2-to-1 multiplexer                             : 8
+ 8-bit 2-to-1 multiplexer                              : 8
+# Xors                                                 : 1
+ 8-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <ax1_9> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax1_10> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax1_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax2_10> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax2_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax4_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax3_10> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax3_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax6_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ax5_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <error_Locations> ...
+WARNING:Xst:1710 - FF/Latch <ax7_11> (without init value) has a constant value of 0 in block <error_Locations>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block error_Locations, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 160
+ Flip-Flops                                            : 160
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : error_Locations.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 850
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 56
+#      LUT2                        : 77
+#      LUT3                        : 136
+#      LUT4                        : 73
+#      LUT5                        : 102
+#      LUT6                        : 151
+#      MUXCY                       : 105
+#      MUXF7                       : 22
+#      MUXF8                       : 8
+#      VCC                         : 1
+#      XORCY                       : 115
+# FlipFlops/Latches                : 160
+#      FD                          : 85
+#      FDE                         : 64
+#      FDRE                        : 10
+#      FDSE                        : 1
+# RAMS                             : 64
+#      RAM128X1D                   : 64
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 129
+#      IBUF                        : 65
+#      OBUF                        : 64
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             160  out of  54576     0%  
+ Number of Slice LUTs:                  854  out of  27288     3%  
+    Number used as Logic:               598  out of  27288     2%  
+    Number used as Memory:              256  out of   6408     3%  
+       Number used as RAM:              256
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    876
+   Number with an unused Flip Flop:     716  out of    876    81%  
+   Number with an unused LUT:            22  out of    876     2%  
+   Number of fully used LUT-FF pairs:   138  out of    876    15%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                         130
+ Number of bonded IOBs:                 130  out of    218    59%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 160   |
+N0                                 | NONE(Mram_alpha316)    | 64    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 11.682ns (Maximum Frequency: 85.604MHz)
+   Minimum input arrival time before clock: 8.425ns
+   Maximum output required time after clock: 3.668ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 11.682ns (frequency: 85.604MHz)
+  Total number of paths / destination ports: 10089076 / 228
+-------------------------------------------------------------------------
+Delay:               11.682ns (Levels of Logic = 14)
+  Source:            ax1_0 (FF)
+  Destination:       L_array_7_0 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: ax1_0 to L_array_7_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.721  ax1_0 (ax1_0)
+     LUT2:I0->O            1   0.203   0.000  Madd_n0369_lut<0> (Madd_n0369_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_n0369_cy<0> (Madd_n0369_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_n0369_cy<1> (Madd_n0369_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_n0369_cy<2> (Madd_n0369_cy<2>)
+     XORCY:CI->O           4   0.180   0.931  Madd_n0369_xor<3> (Madd_ax1[7]_GND_1_o_add_69_OUT_lut<3>)
+     LUT4:I0->O            1   0.203   0.580  Madd_ax1[7]_GND_1_o_add_69_OUT_cy<4>11_SW0 (N112)
+     LUT6:I5->O            8   0.205   0.803  Mmux_x1a81 (x1a<7>)
+     LUT3:I2->O            1   0.205   0.808  inst_LPM_MUX2011 (x1a[7]_read_port_114_OUT<4>)
+     LUT3:I0->O            1   0.205   0.580  Mxor_x1a[7]_GND_1_o_xor_129_OUT_4_xo<0>_SW0 (N48)
+     LUT6:I5->O           32   0.205   1.656  Mxor_x1a[7]_GND_1_o_xor_129_OUT_4_xo<0> (x1a[7]_GND_1_o_xor_129_OUT<4>)
+     LUT6:I0->O            1   0.203   0.000  Mram_tuple10 (Mram_tuple10)
+     MUXF7:I1->O           1   0.140   0.000  Mram_tuple10_f7 (Mram_tuple10_f7)
+     MUXF8:I1->O           3   0.152   0.879  Mram_tuple10_f8 (_n0422<2>)
+     LUT3:I0->O           64   0.205   1.639  _n0450<0>_cepot (_n0450<0>_cepot)
+     FDE:CE                    0.322          L_array_7_0
+    ----------------------------------------
+    Total                     11.682ns (3.085ns logic, 8.597ns route)
+                                       (26.4% logic, 73.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1179 / 160
+-------------------------------------------------------------------------
+Offset:              8.425ns (Levels of Logic = 7)
+  Source:            Sigma6<1> (PAD)
+  Destination:       ax6_8 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Sigma6<1> to ax6_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.222   1.077  Sigma6_1_IBUF (Madd_n0319[8:0]_cy<1>)
+     LUT6:I2->O            2   0.203   0.981  Madd_n0287_cy<0>41 (Madd_n0287_cy<0>3)
+     LUT6:I0->O            2   0.203   0.981  Madd_n0287_cy<0>51 (Madd_n0287_cy<0>4)
+     LUT6:I0->O            2   0.203   0.981  Madd_n0287_cy<0>61 (Madd_n0287_cy<0>5)
+     LUT6:I0->O            2   0.203   0.981  Madd_n0287_cy<0>71 (Madd_n0287_cy<0>6)
+     LUT6:I0->O            3   0.203   0.879  Madd_n0287_cy<0>81 (Madd_n0287_cy<0>7)
+     LUT6:I3->O            1   0.205   0.000  Mmux_BUS_0021_GND_1_o_mux_50_OUT101 (BUS_0021_GND_1_o_mux_50_OUT<8>)
+     FD:D                      0.102          ax6_8
+    ----------------------------------------
+    Total                      8.425ns (2.544ns logic, 5.881ns route)
+                                       (30.2% logic, 69.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 64 / 64
+-------------------------------------------------------------------------
+Offset:              3.668ns (Levels of Logic = 1)
+  Source:            L_array_7_63 (FF)
+  Destination:       Location1<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: L_array_7_63 to Location1<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.447   0.650  L_array_7_63 (L_array_7_63)
+     OBUF:I->O                 2.571          Location1_7_OBUF (Location1<7>)
+    ----------------------------------------
+    Total                      3.668ns (3.018ns logic, 0.650ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |   11.682|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock N0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    5.033|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.56 secs
+ 
+--> 
+
+Total memory usage is 263076 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

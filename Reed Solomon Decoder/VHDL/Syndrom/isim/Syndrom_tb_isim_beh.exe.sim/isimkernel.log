@@ -1,0 +1,40 @@
+Command line:
+   Syndrom_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  10800
+
+Thu Jul 29 02:06:36 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5159.69 Meg
+
+ Total Signals          : 39
+ Total Nets             : 266
+ Total Signal Drivers   : 35
+ Total Blocks           : 24
+ Total Primitive Blocks : 22
+ Total Processes        : 34
+ Total Traceable Variables  : 36
+ Total Scalar Nets and Variables : 1433
+
+** Failure:SImulation Finished
+User(VHDL) Code Called Simulation Stop
+In process Syndrom_tb.vhd:stim_proc 
+ 
+
+
+** Failure:SImulation Finished
+User(VHDL) Code Called Simulation Stop
+In process Syndrom_tb.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 5002.41 Meg
+
+Thu Jul 29 02:07:58 2021
+

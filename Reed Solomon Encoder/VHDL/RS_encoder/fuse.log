@@ -1,0 +1,28 @@
+Running: E:\software.engineer\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/TESTBENCH_isim_beh.exe -prj D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/TESTBENCH_beh.prj work.TESTBENCH 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/../../Dynamic_RAM1.vhd" into library work
+Parsing VHDL file "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/../../Dynamic_RAM.vhd" into library work
+Parsing VHDL file "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/RS_encoder.vhd" into library work
+Parsing VHDL file "D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/TESTBENCH.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity RAM1 [\RAM1(8,8)\]
+Compiling architecture behavioral of entity RAM [\RAM(8,8)\]
+Compiling architecture behavioral of entity RS_encoder [rs_encoder_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable D:/my files/course/projects/RS_encoder/VHDL/RS_encoder/TESTBENCH_isim_beh.exe
+Fuse Memory Usage: 39112 KB
+Fuse CPU Usage: 935 ms

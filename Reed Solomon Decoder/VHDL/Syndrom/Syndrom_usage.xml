@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="3">
+<DesignStatistics TimeStamp="Sun Aug 01 18:44:08 2021"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="3">
+<attrib name="value" value="138"/></item>
+<item name="AGG_IO" rev="3">
+<attrib name="value" value="138"/></item>
+<item name="AGG_SLICE" rev="3">
+<attrib name="value" value="883"/></item>
+<item name="NUM_BONDED_IOB" rev="3">
+<attrib name="value" value="138"/></item>
+<item name="NUM_BSFULL" rev="3">
+<attrib name="value" value="128"/></item>
+<item name="NUM_BSLUTONLY" rev="3">
+<attrib name="value" value="2577"/></item>
+<item name="NUM_BSUSED" rev="3">
+<attrib name="value" value="2705"/></item>
+<item name="NUM_BUFG" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NUM_LOGIC_O5ANDO6" rev="3">
+<attrib name="value" value="45"/></item>
+<item name="NUM_LOGIC_O6ONLY" rev="3">
+<attrib name="value" value="2660"/></item>
+<item name="NUM_SLICEL" rev="3">
+<attrib name="value" value="529"/></item>
+<item name="NUM_SLICEX" rev="3">
+<attrib name="value" value="354"/></item>
+<item name="NUM_SLICE_CONTROLSET" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NUM_SLICE_CYINIT" rev="3">
+<attrib name="value" value="2750"/></item>
+<item name="NUM_SLICE_F7MUX" rev="3">
+<attrib name="value" value="1049"/></item>
+<item name="NUM_SLICE_F8MUX" rev="3">
+<attrib name="value" value="520"/></item>
+<item name="NUM_SLICE_FF" rev="3">
+<attrib name="value" value="128"/></item>
+<item name="NUM_SLICE_UNUSEDCTRL" rev="3">
+<attrib name="value" value="828"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

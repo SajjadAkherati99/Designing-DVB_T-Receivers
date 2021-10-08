@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Magnitude.ngc error_Magnitude.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Magnitude_map.ncd error_Magnitude.ngd error_Magnitude.pcf 
+par -w -intstyle ise -ol high -mt off error_Magnitude_map.ncd error_Magnitude.ncd error_Magnitude.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Magnitude.twx error_Magnitude.ncd -o error_Magnitude.twr error_Magnitude.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Magnitude.ngc error_Magnitude.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Magnitude_map.ncd error_Magnitude.ngd error_Magnitude.pcf 
+par -w -intstyle ise -ol high -mt off error_Magnitude_map.ncd error_Magnitude.ncd error_Magnitude.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Magnitude.twx error_Magnitude.ncd -o error_Magnitude.twr error_Magnitude.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Magnitude.ngc error_Magnitude.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Magnitude_map.ncd error_Magnitude.ngd error_Magnitude.pcf 
+par -w -intstyle ise -ol high -mt off error_Magnitude_map.ncd error_Magnitude.ncd error_Magnitude.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Magnitude.twx error_Magnitude.ncd -o error_Magnitude.twr error_Magnitude.pcf 
+xst -intstyle ise -ifn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.xst" -ofn "E:/my_files/course/projects/RS_decoder/Verilog/Error_Magnitude/error_Magnitude.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 error_Magnitude.ngc error_Magnitude.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o error_Magnitude_map.ncd error_Magnitude.ngd error_Magnitude.pcf 
+par -w -intstyle ise -ol high -mt off error_Magnitude_map.ncd error_Magnitude.ncd error_Magnitude.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml error_Magnitude.twx error_Magnitude.ncd -o error_Magnitude.twr error_Magnitude.pcf 

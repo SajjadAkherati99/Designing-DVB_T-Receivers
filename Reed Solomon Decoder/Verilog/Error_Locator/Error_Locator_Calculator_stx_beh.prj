@@ -1,0 +1,4 @@
+verilog isim_temp "../../../alpha tuple/tuple_to_alpha/Tuple_To_Alpha/Tuple_To_Alpha.v"
+verilog isim_temp "../../../alpha tuple/alpha_to_tuple/Alpha_To_Tuple/Alpha_To_Tuple.v"
+verilog isim_temp "Error_Locator_Calculator.v"
+verilog isim_temp "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

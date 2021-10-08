@@ -1,0 +1,100 @@
+module error_Locations(Sigma1, Sigma2, Sigma3, Sigma4,
+							  Sigma5, Sigma6, Sigma7, Sigma8,
+							  Clk, Reset,
+							  Location1, Location2, Location3, Location4,
+							  Location5, Location6, Location7, Location8);
+
+	input [7:0] Sigma1, Sigma2, Sigma3, Sigma4,
+				   Sigma5, Sigma6, Sigma7, Sigma8;
+	input Clk, Reset;
+	output [7:0] Location1, Location2, Location3, Location4,
+					 Location5, Location6, Location7, Location8;
+	
+	wire [7:0] Sigma1, Sigma2, Sigma3, Sigma4,
+				  Sigma5, Sigma6, Sigma7, Sigma8;
+	wire Clk, Reset;
+	wire [7:0] Location1, Location2, Location3, Location4,
+				  Location5, Location6, Location7, Location8;
+					 
+	reg[7:0] alpha [0:255];
+	reg[7:0] tuple [0:255];
+	initial begin
+		$readmemb("alpha.txt", alpha, 0, 255);
+		$readmemb("tuple.txt", tuple, 0, 255);
+	end
+	
+	wire [7:0]Sigma[0:8];
+	reg [3:0] counter;
+	reg [15:0]count;
+	reg [2:0]finder;
+	reg [7:0] alpha_i;
+	reg [7:0] location_Array[0:7];
+	reg [7:0]Sigma_x;
+	
+	always@(posedge Clk) begin
+		if (!Reset)
+			count <= 0;
+		else 
+			count <= count + 1'b1;
+	end
+	
+	assign Sigma[0] = 8'd255;
+	assign Sigma[1] = Sigma1;
+	assign Sigma[2] = Sigma2;
+	assign Sigma[3] = Sigma3;
+	assign Sigma[4] = Sigma4;
+	assign Sigma[5] = Sigma5;
+	assign Sigma[6] = Sigma6;
+	assign Sigma[7] = Sigma7;
+	assign Sigma[8] = Sigma8;
+	
+	always @(posedge Clk) begin
+		if(!Reset) begin
+			counter <= 4'd7;
+			alpha_i <= 8'd1;
+			Sigma_x <= Sigma[8];
+			finder <= 3'd7;
+		end
+		else begin
+			if (counter == 0) begin
+				counter <= 4'd8;
+				if (alpha_i < 8'd255) begin
+					alpha_i <= alpha_i + 1'b1;
+				end
+			end
+			else begin
+				counter <= counter - 1'b1;
+			end
+			if (counter < 4'd8) begin
+				if (Sigma_x != 0) begin
+					if(alpha_i > 8'd255 - Sigma_x) begin
+						Sigma_x <= tuple[alpha[alpha_i + 1'b1 + Sigma_x] ^ alpha[Sigma[counter]]];
+					end
+					else begin
+						Sigma_x <= tuple[alpha[alpha_i + Sigma_x] ^ alpha[Sigma[counter]]];
+					end
+				end
+				else begin
+					Sigma_x <= Sigma[counter];
+				end
+			end
+			else begin
+				if (Sigma_x == 0) begin
+					location_Array[finder] <= 8'd255 - alpha_i + 1'b1;
+					finder <= finder - 1'b1;
+				end
+				Sigma_x <= Sigma[8];
+			end
+		end
+	end
+	
+	assign Location1 = location_Array[0];
+	assign Location2 = location_Array[1];
+	assign Location3 = location_Array[2];
+	assign Location4 = location_Array[3];
+	assign Location5 = location_Array[4];
+	assign Location6 = location_Array[5];
+	assign Location7 = location_Array[6];
+	assign Location8 = location_Array[7];
+	
+endmodule

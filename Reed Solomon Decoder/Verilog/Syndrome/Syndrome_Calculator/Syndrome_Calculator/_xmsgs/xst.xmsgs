@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 22: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 30: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 38: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 46: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 54: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 62: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 70: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 78: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 86: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 94: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 102: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 110: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 118: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 126: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 134: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v" Line 142: Port <arg fmt="%s" index="1">done</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">22</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">46</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">54</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">62</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">70</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">78</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">94</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">118</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">126</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">134</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\my_files\course\projects\RS_decoder\Verilog\Syndrome\Syndrome_Calculator\Syndrome_Calculator\Syndrome_Calculator.v</arg>&quot; line <arg fmt="%s" index="2">142</arg>: Output port &lt;<arg fmt="%s" index="3">done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">S16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_0&gt; &lt;S14/counter_0&gt; &lt;S13/counter_0&gt; &lt;S12/counter_0&gt; &lt;S11/counter_0&gt; &lt;S10/counter_0&gt; &lt;S9/counter_0&gt; &lt;S8/counter_0&gt; &lt;S7/counter_0&gt; &lt;S6/counter_0&gt; &lt;S5/counter_0&gt; &lt;S4/counter_0&gt; &lt;S3/counter_0&gt; &lt;S2/counter_0&gt; &lt;S1/counter_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_1&gt; &lt;S14/counter_1&gt; &lt;S13/counter_1&gt; &lt;S12/counter_1&gt; &lt;S11/counter_1&gt; &lt;S10/counter_1&gt; &lt;S9/counter_1&gt; &lt;S8/counter_1&gt; &lt;S7/counter_1&gt; &lt;S6/counter_1&gt; &lt;S5/counter_1&gt; &lt;S4/counter_1&gt; &lt;S3/counter_1&gt; &lt;S2/counter_1&gt; &lt;S1/counter_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_2&gt; &lt;S14/counter_2&gt; &lt;S13/counter_2&gt; &lt;S12/counter_2&gt; &lt;S11/counter_2&gt; &lt;S10/counter_2&gt; &lt;S9/counter_2&gt; &lt;S8/counter_2&gt; &lt;S7/counter_2&gt; &lt;S6/counter_2&gt; &lt;S5/counter_2&gt; &lt;S4/counter_2&gt; &lt;S3/counter_2&gt; &lt;S2/counter_2&gt; &lt;S1/counter_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_3&gt; &lt;S14/counter_3&gt; &lt;S13/counter_3&gt; &lt;S12/counter_3&gt; &lt;S11/counter_3&gt; &lt;S10/counter_3&gt; &lt;S9/counter_3&gt; &lt;S8/counter_3&gt; &lt;S7/counter_3&gt; &lt;S6/counter_3&gt; &lt;S5/counter_3&gt; &lt;S4/counter_3&gt; &lt;S3/counter_3&gt; &lt;S2/counter_3&gt; &lt;S1/counter_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_4&gt; &lt;S14/counter_4&gt; &lt;S13/counter_4&gt; &lt;S12/counter_4&gt; &lt;S11/counter_4&gt; &lt;S10/counter_4&gt; &lt;S9/counter_4&gt; &lt;S8/counter_4&gt; &lt;S7/counter_4&gt; &lt;S6/counter_4&gt; &lt;S5/counter_4&gt; &lt;S4/counter_4&gt; &lt;S3/counter_4&gt; &lt;S2/counter_4&gt; &lt;S1/counter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_5&gt; &lt;S14/counter_5&gt; &lt;S13/counter_5&gt; &lt;S12/counter_5&gt; &lt;S11/counter_5&gt; &lt;S10/counter_5&gt; &lt;S9/counter_5&gt; &lt;S8/counter_5&gt; &lt;S7/counter_5&gt; &lt;S6/counter_5&gt; &lt;S5/counter_5&gt; &lt;S4/counter_5&gt; &lt;S3/counter_5&gt; &lt;S2/counter_5&gt; &lt;S1/counter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_6&gt; &lt;S14/counter_6&gt; &lt;S13/counter_6&gt; &lt;S12/counter_6&gt; &lt;S11/counter_6&gt; &lt;S10/counter_6&gt; &lt;S9/counter_6&gt; &lt;S8/counter_6&gt; &lt;S7/counter_6&gt; &lt;S6/counter_6&gt; &lt;S5/counter_6&gt; &lt;S4/counter_6&gt; &lt;S3/counter_6&gt; &lt;S2/counter_6&gt; &lt;S1/counter_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_7&gt; &lt;S14/counter_7&gt; &lt;S13/counter_7&gt; &lt;S12/counter_7&gt; &lt;S11/counter_7&gt; &lt;S10/counter_7&gt; &lt;S9/counter_7&gt; &lt;S8/counter_7&gt; &lt;S7/counter_7&gt; &lt;S6/counter_7&gt; &lt;S5/counter_7&gt; &lt;S4/counter_7&gt; &lt;S3/counter_7&gt; &lt;S2/counter_7&gt; &lt;S1/counter_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/counter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/counter_8&gt; &lt;S14/counter_8&gt; &lt;S13/counter_8&gt; &lt;S12/counter_8&gt; &lt;S11/counter_8&gt; &lt;S10/counter_8&gt; &lt;S9/counter_8&gt; &lt;S8/counter_8&gt; &lt;S7/counter_8&gt; &lt;S6/counter_8&gt; &lt;S5/counter_8&gt; &lt;S4/counter_8&gt; &lt;S3/counter_8&gt; &lt;S2/counter_8&gt; &lt;S1/counter_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">S16/done</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Syndrome_Calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;S15/done&gt; &lt;S14/done&gt; &lt;S13/done&gt; &lt;S12/done&gt; &lt;S11/done&gt; &lt;S10/done&gt; &lt;S9/done&gt; &lt;S8/done&gt; &lt;S7/done&gt; &lt;S6/done&gt; &lt;S5/done&gt; &lt;S4/done&gt; &lt;S3/done&gt; &lt;S2/done&gt; &lt;S1/done&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,5 @@
+verilog work "../../../../alpha tuple/tuple_to_alpha/Tuple_To_Alpha/Tuple_To_Alpha.v"
+verilog work "../../../../alpha tuple/alpha_to_tuple/Alpha_To_Tuple/Alpha_To_Tuple.v"
+verilog work "Syndrome.v"
+verilog work "testbench.v"
+verilog work "E:/software.engineer/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

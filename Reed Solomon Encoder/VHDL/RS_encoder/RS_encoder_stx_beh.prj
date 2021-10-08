@@ -1,0 +1,3 @@
+vhdl isim_temp "../../Dynamic_RAM1.vhd"
+vhdl isim_temp "../../Dynamic_RAM.vhd"
+vhdl isim_temp "RS_encoder.vhd"

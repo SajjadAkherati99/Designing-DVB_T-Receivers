@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/my_files/course/projects/RS_decoder/VHDL/z_Calculator/z_Calculator.xst" -ofn "D:/my_files/course/projects/RS_decoder/VHDL/z_Calculator/z_Calculator.syr" 
+xst -intstyle ise -ifn "D:/my_files/course/projects/RS_decoder/VHDL/z_Calculator/z_Calculator.xst" -ofn "D:/my_files/course/projects/RS_decoder/VHDL/z_Calculator/z_Calculator.syr" 
